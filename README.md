@@ -14,7 +14,7 @@ Publicly available datasets with conversation transcripts annotated with dialog 
 
 <!-- * [Switchboard CMU](https://github.com/snakeztc/NeuralDialog-CVAE/blob/master/data/json_data/valid.jsonl) conversational dataset based on Switchboard (SW) 1 Release 2 Corpus (Godfrey and Holliman, 1997), which contains 2400 phone conversations annotated with 42 types of dialog acts, 70 available topics. License: Apache-2.0. -->
 
-<!-- * [Spoken Conversational Search Data Set](https://github.com/JTrippas/Spoken-Conversational-Search) provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles. -->
+* [Spoken Conversational Search Data Set](https://github.com/JTrippas/Spoken-Conversational-Search) provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles.
 
 * [Open Data Exploration dataset](https://github.com/vendi12/ODExploration_data) for the conversational browsing task contains 26 transcripts annotated with dialog acts and entity spans. License: MIT.
 
