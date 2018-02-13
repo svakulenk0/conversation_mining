@@ -1,3 +1,4 @@
+case ID;resource;activity name
 1;A;greeting()
 1;U;question(data)
 1;A;list(keywords)
