@@ -20,10 +20,41 @@ Publicly available datasets with conversation transcripts annotated with dialog 
 
 <!-- * [Switchboard CMU](https://github.com/snakeztc/NeuralDialog-CVAE/blob/master/data/json_data/valid.jsonl) conversational dataset based on Switchboard (SW) 1 Release 2 Corpus (Godfrey and Holliman, 1997), which contains 2400 phone conversations annotated with 42 types of dialog acts, 70 available topics. License: Apache-2.0. -->
 
-* [Spoken Conversational Search Data Set](https://github.com/JTrippas/Spoken-Conversational-Search) provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles.
+* [Spoken Conversational Search](https://github.com/JTrippas/Spoken-Conversational-Search) (SCS) Data Set provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles.
 
 * [Open Data Exploration dataset](https://github.com/vendi12/ODExploration_data) for the conversational browsing task contains 26 transcripts annotated with dialog acts and entity spans. License: MIT.
 
+## Annotations
+
+Format CSV for importing into ProM. One message/dialog act per row.
+
+Basic columns:
+
+* case ID - conversation identifier
+* resource - actor role of the conversation participant
+* activity name - dialog (speech) act
+
+Optional columns:
+
+* start time, stop time - timestamps reflect ordering of messages along the time axis
+* message count - counts the number of messages exchanged within a conversation
+* message - transcript of the utterance
+* query - information need describing the task (instruction) that participants are solving
+
+[DSTC](http://camdial.org/~mh521/dstc/downloads/handbook.pdf)
+
+* turn count - counts the pairs of messages exchanged within a conversation
+* slots - message attributes from the domain ontology
+
+[SCS](https://github.com/JTrippas/Spoken-Conversational-Search):
+
+* Query.complexity - one of three levels, referencing the task complexiy type (remember, understand, and analyze)
+* Notes - comments such as the particular search is stopped by the user or researcher or extra notes which relate to the action of the participant regarding the search session.
+
+[SWDA](http://compprag.christopherpotts.net/swda.html)
+
+* length - duration of the conversation in seconds
+* caller_dialect_area - geo identifier for the cluster of resources from the set of {MIXED, NEW ENGLAND, NORTH MIDLAND, NORTHERN, NYC, SOUTH MIDLAND, SOUTHERN, UNK, WESTERN}
 
 ## References
 
