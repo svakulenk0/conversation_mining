@@ -5,7 +5,6 @@ svakulenko
 12 Feb 2017
 
 Store corpus in CSV format
-Run with python dstc1_to_csv.py --dataset=train3.half2 --dataroot=../data
 '''
 
 import sys,os,argparse,shutil,glob,json,copy,time, csv
@@ -15,7 +14,7 @@ sys.path.append(utils_dirname)
 from dataset_walker import dataset_walker
 
 
-SLOTS = ['route','from.desc','from.neighborhood','from.monument','to.desc','to.neighborhood','to.monument','date','time']
+# SLOTS = ['route','from.desc','from.neighborhood','from.monument','to.desc','to.neighborhood','to.monument','date','time']
 DATASETS = ['test1', 'test2', 'test3', 'test4', 'train1a', 'train1b', 'train1c', 'train2', 'train3']
 
 def parse_data(csv_writer, dataroot='../data'):
