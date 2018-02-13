@@ -3,9 +3,9 @@ Dataset,Format,Year,Domain,Language,Timestamps,Audio,Data (slots),Dialog acts,Us
 DSTC1,JSON,2012,bus timetable,,+,+,+,+,+,https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge,,,,
 DSTC2,,,restaurant search,,,,+,+,+,http://camdial.org/~mh521/dstc/,,,,
 DSTC3,,,tourist information,,,,+,+,+,http://camdial.org/~mh521/dstc/,,,,
-DSTC4,,,tourist information,,,,,,,http://www.colips.org/workshop/dstc4/,,ETPL,,
+DSTC4,,,tourist information,,,,,,,-,,ETPL,,
 DSTC5,,,tourist information,,,,,,,-,,,,
-DSTC6,,2017,,,,,,,,http://workshop.colips.org/dstc6/,,,,
+DSTC6: 3 tracks,,2017,,,,,,,,http://workshop.colips.org/dstc6/,,,,
 SwDA,,,,,,,,+,,http://compprag.christopherpotts.net/swda.html,,,,
 carnegie mellon communicator corpus,,,,,,,,,,?,"Bennett, C. L. & Rudnicky, A. I. (2002). The carnegie mellon communicator corpus.. In J. H. L. Hansen & B. L. Pellom (eds.), INTERSPEECH, : ISCA. ",,,180605
 DARPA Communicator challenge,,,,,,,,,,?,,,,
