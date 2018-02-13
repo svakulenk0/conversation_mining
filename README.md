@@ -41,7 +41,7 @@ Optional columns:
 * message - transcript of the utterance
 * query - information need describing the task (instruction) that participants are solving
 
-[DSTC](http://camdial.org/~mh521/dstc/downloads/handbook.pdf)
+[DSTC1&2](http://camdial.org/~mh521/dstc/downloads/handbook.pdf)
 
 * turn count - counts the pairs of messages exchanged within a conversation
 * slots - message attributes from the domain ontology
