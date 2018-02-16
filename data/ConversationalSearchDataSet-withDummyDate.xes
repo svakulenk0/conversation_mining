@@ -1,0 +1,2374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<event>
+			<string key="concept:instance" value="0"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="In which countries... in which european countries... do they grow cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:02.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="0"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="In which countries... in which european countries... do they grow cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:11.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="1"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="There is a bunch or results and the first one is Wikipedia uhm... which just talks about cinnamon but the next one talks about the top 5 uhm cinnamon producing countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:40.900+01:00"/>
+			<string key="Notes" value="Reads titles from first 2 search results, no modification"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="1"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="There is a bunch or results and the first one is Wikipedia uhm... which just talks about cinnamon but the next one talks about the top 5 uhm cinnamon producing countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:51.900+01:00"/>
+			<string key="Notes" value="Reads titles from first 2 search results, no modification"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10"/>
+		<event>
+			<string key="concept:instance" value="2"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="turkish river control"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:22.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="2"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="turkish river control"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:24.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="3"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:30.700+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="3"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:31.700+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="4"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="What results came up?"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:33.500+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="4"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="What results came up?"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:34.600+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11"/>
+		<event>
+			<string key="concept:instance" value="5"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Rome water supply"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:51.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="5"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Rome water supply"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:54.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="6"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... yeah uhm... it pops up... it talks about the aqueduct and stuff and... yeah... pretty much more based on it&apos;s history"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:05.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="6"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... yeah uhm... it pops up... it talks about the aqueduct and stuff and... yeah... pretty much more based on it&apos;s history"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:16.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12"/>
+		<event>
+			<string key="concept:instance" value="7"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="health benefits of marine vegetation"/>
+			<date key="time:timestamp" value="2018-02-16T00:04:57.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="7"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="health benefits of marine vegetation"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:01.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="8"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... yah"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:11.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="8"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... yah"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:12.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="9"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="what kind of results come up"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:12.500+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="9"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="what kind of results come up"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:15.400+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13"/>
+		<event>
+			<string key="concept:instance" value="10"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Search for US unemployment plus outsourcing"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:07.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="10"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Search for US unemployment plus outsourcing"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:13.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="11"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so do you like to ask about the US unemployment rate or... range or number or"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:00.800+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="11"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so do you like to ask about the US unemployment rate or... range or number or"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:13.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="12"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... well... uhm... not the rate or anything like that uhm... it&apos;s... just the concept of unemployment... unemployed people"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:14.500+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="12"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... well... uhm... not the rate or anything like that uhm... it&apos;s... just the concept of unemployment... unemployed people"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:30.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14"/>
+		<event>
+			<string key="concept:instance" value="13"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you search for language plus new caledonia"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:16.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="13"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you search for language plus new caledonia"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:22.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="14"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="New"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:22.800+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="14"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="New"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:23.500+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="15"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="New caledonia the country"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:23.900+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="15"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="New caledonia the country"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:26.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15"/>
+		<event>
+			<string key="concept:instance" value="16"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="can you search for... airport security plus success"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:20.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="16"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="can you search for... airport security plus success"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:32.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="17"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="In a certain place"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:36.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="17"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="In a certain place"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:37.700+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="18"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... no... in general"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:39.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="18"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... no... in general"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:40.600+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16"/>
+		<event>
+			<string key="concept:instance" value="19"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Effectiveness of security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:07.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="19"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Effectiveness of security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:15.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="20"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so it is effective measures"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:24.400+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="20"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so it is effective measures"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:27.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="21"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="effectiveness... new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:27.000+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="21"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="effectiveness... new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:30.000+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17"/>
+		<event>
+			<string key="concept:instance" value="22"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Health benefits of marine vegetation"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:26.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="22"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Health benefits of marine vegetation"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:30.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="23"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Searching health benefits of marine vegetation... so the first article that comes up reap the health benefits of tiny marine plants by food trends... second article sea vegetables the world&apos;s healthiest foods... third article the benefits of marine phytoplankton by wellness mama"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:49.300+01:00"/>
+			<string key="Notes" value="reads out three titles"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="23"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Searching health benefits of marine vegetation... so the first article that comes up reap the health benefits of tiny marine plants by food trends... second article sea vegetables the world&apos;s healthiest foods... third article the benefits of marine phytoplankton by wellness mama"/>
+			<date key="time:timestamp" value="2018-02-16T00:11:18.800+01:00"/>
+			<string key="Notes" value="reads out three titles"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18"/>
+		<event>
+			<string key="concept:instance" value="24"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Rome&apos;s major river"/>
+			<date key="time:timestamp" value="2018-02-16T00:19:08.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="24"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Rome&apos;s major river"/>
+			<date key="time:timestamp" value="2018-02-16T00:19:11.300+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="25"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="So... it comes up with the Tiber"/>
+			<date key="time:timestamp" value="2018-02-16T00:19:27.700+01:00"/>
+			<string key="Notes" value="Search stopped by user"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="25"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="So... it comes up with the Tiber"/>
+			<date key="time:timestamp" value="2018-02-16T00:19:29.100+01:00"/>
+			<string key="Notes" value="Search stopped by user"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19"/>
+		<event>
+			<string key="concept:instance" value="26"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="What&apos;s the average alcohol consumption of an Australian"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:05.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="26"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="What&apos;s the average alcohol consumption of an Australian"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:11.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="27"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP with modification + Suggestion"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="okay... uhm drinking habits of australians uhm apparent consumption of alcohol Australia this is from the Australian bureau of statistics uhm... alcohol consumption from the bureau of statistics... is it just australians or..."/>
+			<date key="time:timestamp" value="2018-02-16T00:00:16.800+01:00"/>
+			<string key="Notes" value="reads out first 3 SERP titles"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="27"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP with modification + Suggestion"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="okay... uhm drinking habits of australians uhm apparent consumption of alcohol Australia this is from the Australian bureau of statistics uhm... alcohol consumption from the bureau of statistics... is it just australians or..."/>
+			<date key="time:timestamp" value="2018-02-16T00:00:48.000+01:00"/>
+			<string key="Notes" value="reads out first 3 SERP titles"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2"/>
+		<event>
+			<string key="concept:instance" value="28"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you type in... uhm...effective effectiveness of new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:34.300+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="28"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you type in... uhm...effective effectiveness of new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:47.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="29"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Australia or at the airport"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:58.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="29"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Australia or at the airport"/>
+			<date key="time:timestamp" value="2018-02-16T00:07:02.800+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="30"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="put uhm... put international airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:07:02.900+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="30"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="put uhm... put international airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:07:08.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20"/>
+		<event>
+			<string key="concept:instance" value="31"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Which country does cinnamon which country grows the most cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:19.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="31"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Which country does cinnamon which country grows the most cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:24.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="32"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Sri lanka"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:32.600+01:00"/>
+			<string key="Notes" value="SERP card"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="32"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Sri lanka"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:33.900+01:00"/>
+			<string key="Notes" value="SERP card"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21"/>
+		<event>
+			<string key="concept:instance" value="33"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="What jobs that used to be in the US... are no longer have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:16:54.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="33"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="What jobs that used to be in the US... are no longer have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:02.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="34"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="which jobs from the united states have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:05.900+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="34"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="which jobs from the united states have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:08.800+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="35"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Confirms"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="yea"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:08.900+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="35"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Confirms"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="yea"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:09.100+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22"/>
+		<event>
+			<string key="concept:instance" value="36"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="can you please search new Caledonia and also the word language"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:02.300+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="36"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="can you please search new Caledonia and also the word language"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:07.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="37"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="can you please uhm repeat the question"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:15.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="37"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="can you please uhm repeat the question"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:18.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="38"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... new caledonia... would you like me to spell it"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:18.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="38"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... new caledonia... would you like me to spell it"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:21.700+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23"/>
+		<event>
+			<string key="concept:instance" value="39"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you please search... Iraq water resources... and then word turkey as well"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:48.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="39"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you please search... Iraq water resources... and then word turkey as well"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:03.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="40"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Is it about Iraq&apos;s water crisis"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:25.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="40"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Is it about Iraq&apos;s water crisis"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:28.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="41"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="probably uhm... I am looking for information about how uhm... how like dams in turkey might be effected water supplies in Iraq... it might also work to search for rivers cross over the border between turkey and Iraq because that might uhm... bring up more specific information related rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:28.400+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="41"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="probably uhm... I am looking for information about how uhm... how like dams in turkey might be effected water supplies in Iraq... it might also work to search for rivers cross over the border between turkey and Iraq because that might uhm... bring up more specific information related rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:03:17.600+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24"/>
+		<event>
+			<string key="concept:instance" value="42"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you please search car tyre recycling... and in the results I am looking for examples of what uhm... recycled car tyres are used for"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:28.400+01:00"/>
+			<string key="Notes" value="User tells the receiver what exactly to look for in the SERP"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="42"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you please search car tyre recycling... and in the results I am looking for examples of what uhm... recycled car tyres are used for"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:48.200+01:00"/>
+			<string key="Notes" value="User tells the receiver what exactly to look for in the SERP"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="43"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="they use it for chair furniture uhm... and then for uhm... as a pot"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:04.900+01:00"/>
+			<string key="Notes" value="Retriever went to the images section in google to see what the uses are of tyres"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="43"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="they use it for chair furniture uhm... and then for uhm... as a pot"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:20.200+01:00"/>
+			<string key="Notes" value="Retriever went to the images section in google to see what the uses are of tyres"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25"/>
+		<event>
+			<string key="concept:instance" value="44"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="What is the river in rome called"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:05.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="44"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="What is the river in rome called"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:07.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="45"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="there is a bunch of hits that tiber tiber T I B E R and yah in Rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:23.900+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="45"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="there is a bunch of hits that tiber tiber T I B E R and yah in Rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:36.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26"/>
+		<event>
+			<string key="concept:instance" value="46"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="where do tyres go when they are being recycled"/>
+			<date key="time:timestamp" value="2018-02-16T00:04:36.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="46"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="where do tyres go when they are being recycled"/>
+			<date key="time:timestamp" value="2018-02-16T00:04:40.300+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="47"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="well uhm... the first result is just a company"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:28.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="47"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="well uhm... the first result is just a company"/>
+			<date key="time:timestamp" value="2018-02-16T00:05:33.400+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27"/>
+		<event>
+			<string key="concept:instance" value="48"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="have turkish river control projects affected Iraqi water resources... so we are looking for if dams or irrigation schemes have affected uhm... any of the Iraqi people"/>
+			<date key="time:timestamp" value="2018-02-16T00:12:29.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="48"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="have turkish river control projects affected Iraqi water resources... so we are looking for if dams or irrigation schemes have affected uhm... any of the Iraqi people"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:03.400+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="49"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Scanning document theme"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="the first result that came up was a PDF by uhm... I think it is the turkish government... gov.tr uhm... it says that there are water issues between turkey, Syria and Iraq... I am just looking... the full pdf wasn&apos;t there but there is uhm... a non-profit website in here that... says uhm... yes, so it&apos;s called turkey&apos;s rivers dispute... I am just looking at it here... so... so turkey doesn&apos;t have new water resources so they use almost all of their water... so they&apos;ve put a lot of money into it, they made quite a lot of dams... so just reading here and see what it says about Iraq was it?"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:06.400+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="49"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Scanning document theme"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="the first result that came up was a PDF by uhm... I think it is the turkish government... gov.tr uhm... it says that there are water issues between turkey, Syria and Iraq... I am just looking... the full pdf wasn&apos;t there but there is uhm... a non-profit website in here that... says uhm... yes, so it&apos;s called turkey&apos;s rivers dispute... I am just looking at it here... so... so turkey doesn&apos;t have new water resources so they use almost all of their water... so they&apos;ve put a lot of money into it, they made quite a lot of dams... so just reading here and see what it says about Iraq was it?"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:34.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28"/>
+		<event>
+			<string key="concept:instance" value="50"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="where does cinnamon come from"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:04.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="50"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="where does cinnamon come from"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:05.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="51"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="sorry say that again"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:07.500+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="51"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="sorry say that again"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:08.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="52"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Where does cinnamon come from"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:08.800+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="52"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Where does cinnamon come from"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:10.500+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29"/>
+		<event>
+			<string key="concept:instance" value="53"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:05.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="53"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="new security measures at airports"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:08.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="54"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so new security measures at airport... which airport"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:09.300+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="54"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so new security measures at airport... which airport"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:13.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="55"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... just airports in general"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:13.800+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="55"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Airport Security"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... just airports in general"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:15.800+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<event>
+			<string key="concept:instance" value="56"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="What US jobs have been outsourced to India"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:24.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="56"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="What US jobs have been outsourced to India"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:36.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="57"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can I put in united states"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:50.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="57"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can I put in united states"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:52.700+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="58"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Confirms"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:52.700+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="58"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Confirms"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:17:53.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30"/>
+		<event>
+			<string key="concept:instance" value="59"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="US jobs outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:17.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="59"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="US jobs outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:21.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="60"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you repeat that please"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:23.500+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="60"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you repeat that please"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:25.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="61"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="US jobs that have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:25.100+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="61"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="US jobs that have been outsourced to india"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:30.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="31"/>
+		<event>
+			<string key="concept:instance" value="62"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="can you just type in tyre uhm... car tyre recycling"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:05.200+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="62"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="can you just type in tyre uhm... car tyre recycling"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:10.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="63"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so are you looking for uhm... the people who recycle tyres"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:18.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="63"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so are you looking for uhm... the people who recycle tyres"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:23.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="64"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... I just want to see what the tyres..."/>
+			<date key="time:timestamp" value="2018-02-16T00:00:23.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="64"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... I just want to see what the tyres..."/>
+			<date key="time:timestamp" value="2018-02-16T00:00:27.400+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32"/>
+		<event>
+			<string key="concept:instance" value="65"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="OK so I need you to look up uhm... Australian alcohol consumption per capita"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:08.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="65"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="OK so I need you to look up uhm... Australian alcohol consumption per capita"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:20.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="66"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:22.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="66"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Confirms"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="yeah"/>
+			<date key="time:timestamp" value="2018-02-16T00:06:22.900+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="67"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so what&apos;s the first result that you get... do you get a..."/>
+			<date key="time:timestamp" value="2018-02-16T00:06:24.900+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="67"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:SERP information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so what&apos;s the first result that you get... do you get a..."/>
+			<date key="time:timestamp" value="2018-02-16T00:06:27.800+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33"/>
+		<event>
+			<string key="concept:instance" value="68"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Can you type in new caledonia"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:16.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="68"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Can you type in new caledonia"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:20.400+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="69"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="New"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:21.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="69"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="New"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:21.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="70"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="new caledonia C A L E D O N I A uhm... language"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:21.600+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="70"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="new caledonia C A L E D O N I A uhm... language"/>
+			<date key="time:timestamp" value="2018-02-16T00:13:30.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34"/>
+		<event>
+			<string key="concept:instance" value="71"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="algae seaweed health"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:19.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="71"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="algae seaweed health"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:20.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="72"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="pardon"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:21.500+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="72"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="pardon"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:22.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="73"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="algae seaweed health"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:22.700+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="73"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="algae seaweed health"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:25.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="35"/>
+		<event>
+			<string key="concept:instance" value="74"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so the count... part in uhm... a biscuits that you are get from Europe... uhm... it contains cinnamon... and... I want to know where the cinnamon is coming from... are there... is this... uhm... is this coming from Europe uhm... so how to uhm... search for uhm... cinnamon Europe biscuits"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:25.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="74"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so the count... part in uhm... a biscuits that you are get from Europe... uhm... it contains cinnamon... and... I want to know where the cinnamon is coming from... are there... is this... uhm... is this coming from Europe uhm... so how to uhm... search for uhm... cinnamon Europe biscuits"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:53.300+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="75"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="cinnamon what sorry"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:53.400+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="75"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="cinnamon what sorry"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:55.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="76"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Europe"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:55.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="76"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Europe"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:55.700+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="36"/>
+		<event>
+			<string key="concept:instance" value="77"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="can you start with alcohol consumption uhm... in different kind countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:19:59.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="77"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="can you start with alcohol consumption uhm... in different kind countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:20:07.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="78"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP with modification + Suggestion"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="I have scholar articles as well as alcohol consumption per capita... would you like to see more of that"/>
+			<date key="time:timestamp" value="2018-02-16T00:20:11.900+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="78"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP with modification + Suggestion"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="I have scholar articles as well as alcohol consumption per capita... would you like to see more of that"/>
+			<date key="time:timestamp" value="2018-02-16T00:20:19.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="37"/>
+		<event>
+			<string key="concept:instance" value="79"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="search for rivers in turkey and Iraq"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:12.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="79"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="search for rivers in turkey and Iraq"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:17.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="80"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:17.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="80"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:18.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="81"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="rivers in turkey and Iraq so that is R I V E R S"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:18.400+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="81"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="rivers in turkey and Iraq so that is R I V E R S"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:25.600+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38"/>
+		<event>
+			<string key="concept:instance" value="82"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="the first search is rivers in rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:08.100+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="82"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="the first search is rivers in rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:11.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="83"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="yep... do you want the names of the rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:12.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="83"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:Query refinement offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="yep... do you want the names of the rivers"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:15.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="84"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="No just... just do a search on the rivers in rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:15.200+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="84"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Intent clarification"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="No just... just do a search on the rivers in rome"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:19.500+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="39"/>
+		<event>
+			<string key="concept:instance" value="85"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Ok uhm... in this case I want you to put an end between each word... and they are health... algae... A G... I am sorry A L G A E"/>
+			<date key="time:timestamp" value="2018-02-16T00:14:56.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="85"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Ok uhm... in this case I want you to put an end between each word... and they are health... algae... A G... I am sorry A L G A E"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:09.900+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="86"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="I am in a deadlock can you"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:11.100+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="86"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="I am in a deadlock can you"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:14.500+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="87"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="sure it&apos;s health and algae A L G A E and seaweed and kelp"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:14.700+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="87"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Query embellishment"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="sure it&apos;s health and algae A L G A E and seaweed and kelp"/>
+			<date key="time:timestamp" value="2018-02-16T00:15:32.100+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4"/>
+		<event>
+			<string key="concept:instance" value="88"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Uses for old car then the query or... passenger vehicle tyres... T Y R E S or... in caps tires... T I R E S... and I wanna uhm... do a date range so the data is from a recent 12 months... so uses for old car caps or passenger vehicle or tyres T Y R E S caps or tires T I R E S and data in the last 12 months that&apos;s the query"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:14.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="88"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Uses for old car then the query or... passenger vehicle tyres... T Y R E S or... in caps tires... T I R E S... and I wanna uhm... do a date range so the data is from a recent 12 months... so uses for old car caps or passenger vehicle or tyres T Y R E S caps or tires T I R E S and data in the last 12 months that&apos;s the query"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:18.600+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="89"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="So far from the last 12 months I... first results is second hand tyres in Sydney uhmäó_ from a wreckers the second result is compare tyres from drive.com.au uhm... the third result is uhm... an other wreckers in Brisbane used tyres in Frankston is the fourth result wheel and rim profiles of passenger cars tyre size calculator uhm... then there is the car bible uhm wheel and tyre bible which looks like it is everything you need to know about wheels and tyres from cars... the next one is beaurepaires... so an other tyres sales place... uhm one used car pick the tyres uhm... what damage does a car suffer if not refually used on a forum and then the last result is Bridgestone pricing"/>
+			<date key="time:timestamp" value="2018-02-16T00:01:19.200+01:00"/>
+			<string key="Notes" value="Reads all search results, mainly titles"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="89"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="So far from the last 12 months I... first results is second hand tyres in Sydney uhmäó_ from a wreckers the second result is compare tyres from drive.com.au uhm... the third result is uhm... an other wreckers in Brisbane used tyres in Frankston is the fourth result wheel and rim profiles of passenger cars tyre size calculator uhm... then there is the car bible uhm wheel and tyre bible which looks like it is everything you need to know about wheels and tyres from cars... the next one is beaurepaires... so an other tyres sales place... uhm one used car pick the tyres uhm... what damage does a car suffer if not refually used on a forum and then the last result is Bridgestone pricing"/>
+			<date key="time:timestamp" value="2018-02-16T00:02:27.400+01:00"/>
+			<string key="Notes" value="Reads all search results, mainly titles"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5"/>
+		<event>
+			<string key="concept:instance" value="90"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="Please compare first word it might put compare average international uhm... and I like in inverted commas the words alcohol consumption... closing inverted commas and then in opening inverted commas per capita that is P E R capita C A P I T A closing inverted commas and that&apos;s... if you could return the searches for that please..."/>
+			<date key="time:timestamp" value="2018-02-16T00:10:16.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="90"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="Please compare first word it might put compare average international uhm... and I like in inverted commas the words alcohol consumption... closing inverted commas and then in opening inverted commas per capita that is P E R capita C A P I T A closing inverted commas and that&apos;s... if you could return the searches for that please..."/>
+			<date key="time:timestamp" value="2018-02-16T00:11:02.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="91"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="sorry what... can you repeat that sentence"/>
+			<date key="time:timestamp" value="2018-02-16T00:11:07.400+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="91"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:Asks to repeat"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="sorry what... can you repeat that sentence"/>
+			<date key="time:timestamp" value="2018-02-16T00:11:09.600+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="92"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="compare average open inverted commas oh sorry compare average international open inverted commas alcohol consumption close inverted commas open inverted commas per capita close inverted commas"/>
+			<date key="time:timestamp" value="2018-02-16T00:11:10.300+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="92"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Query repeat"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="compare average open inverted commas oh sorry compare average international open inverted commas alcohol consumption close inverted commas open inverted commas per capita close inverted commas"/>
+			<date key="time:timestamp" value="2018-02-16T00:11:29.900+01:00"/>
+			<int key="message count" value="3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6"/>
+		<event>
+			<string key="concept:instance" value="93"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="please search for the following phrase... what language language in inverted commas is spoken in open inverted commas new Caledonia close inverted commas... can you please check the caledonia CALEDONIA"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:14.000+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="93"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="please search for the following phrase... what language language in inverted commas is spoken in open inverted commas new Caledonia close inverted commas... can you please check the caledonia CALEDONIA"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:47.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="94"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm... it has come up straight away with a result uhm... in google uhm... new caledonia official language French"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:59.700+01:00"/>
+			<string key="Notes" value="Search stopped by user"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="94"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm... it has come up straight away with a result uhm... in google uhm... new caledonia official language French"/>
+			<date key="time:timestamp" value="2018-02-16T00:22:02.100+01:00"/>
+			<string key="Notes" value="Search stopped by user"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7"/>
+		<event>
+			<string key="concept:instance" value="95"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="maybe start of with type in marine vegetation and read up on what it kind of means"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:01.400+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="95"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="maybe start of with type in marine vegetation and read up on what it kind of means"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:10.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="96"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="ok I have an article about marine vegetation... plants that inhabit the seas and oceans... they include algae grasses mangrove trees and shrubs"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:20.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="96"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="concept:name" value="B:SERP with modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="ok I have an article about marine vegetation... plants that inhabit the seas and oceans... they include algae grasses mangrove trees and shrubs"/>
+			<date key="time:timestamp" value="2018-02-16T00:00:35.200+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8"/>
+		<event>
+			<string key="concept:instance" value="97"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="maybe start of with uhm... type in... the origins of cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:16.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="97"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="maybe start of with uhm... type in... the origins of cinnamon"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:21.800+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="98"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="uhm I have around 1518 Portuguese traders discovered cinnamon at Ceylon present-day Sri Lanka"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:33.000+01:00"/>
+			<string key="Notes" value="SERP card"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="98"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="uhm I have around 1518 Portuguese traders discovered cinnamon at Ceylon present-day Sri Lanka"/>
+			<date key="time:timestamp" value="2018-02-16T00:10:41.700+01:00"/>
+			<string key="Notes" value="SERP card"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9"/>
+		<event>
+			<string key="concept:instance" value="99"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="ok so... uhm... in general I sort of want to try to find out the average consumption of alcohol uhm by... by the country state... for local level... so maybe just start of with type in uhm alcohol consumption by country... tell me if anything related to statistics uhm... about alcohol consumption uhm... between countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:20:18.500+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="99"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="A:Initial information request"/>
+			<string key="resource" value="A_User"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="ok so... uhm... in general I sort of want to try to find out the average consumption of alcohol uhm by... by the country state... for local level... so maybe just start of with type in uhm alcohol consumption by country... tell me if anything related to statistics uhm... about alcohol consumption uhm... between countries"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:00.700+01:00"/>
+			<int key="message count" value="1"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="100"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="message" value="so I have a document about global consumption of alcohol by the world bank"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:03.000+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+		<event>
+			<string key="concept:instance" value="100"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="concept:name" value="B:SERP without modification"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="message" value="so I have a document about global consumption of alcohol by the world bank"/>
+			<date key="time:timestamp" value="2018-02-16T00:21:08.800+01:00"/>
+			<int key="message count" value="2"/>
+		</event>
+	</trace>
+</log>
