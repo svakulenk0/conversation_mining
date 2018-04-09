@@ -10,19 +10,19 @@ Publicly available datasets with conversation transcripts annotated with dialog 
 
 [Dialog State Tracking Challenge Series](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge) provided several datasets with annotated information-seeking dialog transcripts for traveling and restaurant domains. Some of them are freely available. These datasets were created to evaluate and compare performance of dialog state trackers, systems able to interpret the user's action. They also include ontologies describing the domain, which consists of attributes (slots) with a set of possible values for each of the attributes. The transcripts are annotated with the dialog acts, user goals, methods, attributes, time-stamps as well as the user feedback.
 
-* [DSTC1](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/) The domain is route information for buses in Pittsburgh. [Annotation description](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Dialog20state20tracking20challenge20handbook20V21.pdf) License: MSR-LA
+* [DSTC1](https://www.microsoft.com/en-us/research/event/dialog-state-tracking-challenge/) The domain is route information for buses in Pittsburgh. [Codebook](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Dialog20state20tracking20challenge20handbook20V21.pdf) License: MSR-LA
 
 * [DSTC2](http://camdial.org/~mh521/dstc/) labeled human-computer dialogs in restaurant information domain. JSON format. The domain of a dataset is described by an ontology object, also distributed in JSON. Phoenix grammar. The dialog-act notation closely matches that used in DSTC1.
 
 <!-- * [DSTC3](http://camdial.org/~mh521/dstc/) small amount of labelled data in the tourist information domain. Tourist information subsumes restaurant information, including bars, cafes etc. 10 labelled dialogs -->
 
-* [The Switchboard Dialog Act Corpus (SwDA)](https://github.com/cgpotts/swda) extends the Switchboard-1 Telephone Speech Corpus, Release 2 with turn/utterance-level dialog-act tags. The dataset contains conversation transcripts of telephone conversations annotated with 43 dialog-act tags, part-of-speech tags, lemmas and parse trees. [Annotation description](http://compprag.christopherpotts.net/swda.html) License: GNU GPL v2.0.
+* [The Switchboard Dialog Act Corpus (SwDA)](https://github.com/cgpotts/swda) extends the Switchboard-1 Telephone Speech Corpus, Release 2 with turn/utterance-level dialog-act tags. The dataset contains conversation transcripts of telephone conversations annotated with 43 dialog-act tags, part-of-speech tags, lemmas and parse trees. [Description](http://compprag.christopherpotts.net/swda.html) [Codebook](https://web.stanford.edu/~jurafsky/ws97/manual.august1.html) License: GNU GPL v2.0.
 
 <!-- * [Switchboard CMU](https://github.com/snakeztc/NeuralDialog-CVAE/blob/master/data/json_data/valid.jsonl) conversational dataset based on Switchboard (SW) 1 Release 2 Corpus (Godfrey and Holliman, 1997), which contains 2400 phone conversations annotated with 42 types of dialog acts, 70 available topics. License: Apache-2.0. -->
 
-* [Spoken Conversational Search](https://github.com/JTrippas/Spoken-Conversational-Search) (SCS) Data Set provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles.
+* [Spoken Conversational Search](https://github.com/JTrippas/Spoken-Conversational-Search) (SCS) Data Set provides conversational transcripts collected for the pre-defined search tasks performed in a conversational speech-only setting. The transcripts are annotated with the timestamps, the corresponding search queries and dialog acts for each of the roles. [Codebook](https://github.com/JTrippas/Spoken-Conversational-Search/blob/master/CodeBook_CHIIR.pdf)
 
-* [Open Data Exploration dataset](https://github.com/vendi12/ODExploration_data) for the conversational browsing task contains 26 transcripts annotated with dialog acts and entity spans. License: MIT.
+* [Open Data Exploration dataset](https://github.com/vendi12/ODExploration_data) for the conversational browsing task contains 26 transcripts annotated with dialog acts and entity spans. [Codebook](https://github.com/vendi12/ODExploration_data#annotations) License: MIT.
 
 ## Annotations
 
