@@ -1,0 +1,3429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|more()"/>
+			<string key="activity name" value="more()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|more()"/>
+			<string key="activity name" value="more()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|more()"/>
+			<string key="activity name" value="more()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|prompt(link)"/>
+			<string key="activity name" value="prompt(link)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|verify()"/>
+			<string key="activity name" value="verify()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|request*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|verify()"/>
+			<string key="activity name" value="verify()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|request*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|verify()"/>
+			<string key="activity name" value="verify()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(link)"/>
+			<string key="activity name" value="prompt(link)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|top(keywords)"/>
+			<string key="activity name" value="top(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|top(keywords)"/>
+			<string key="activity name" value="top(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|verify()"/>
+			<string key="activity name" value="verify()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|request*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|top(keywords)"/>
+			<string key="activity name" value="top(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|be contented*"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7"/>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="A|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|promise"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|confirm()"/>
+			<string key="activity name" value="confirm()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|accept"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|success()"/>
+			<string key="activity name" value="success()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|be contented"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9"/>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|greeting()"/>
+			<string key="activity name" value="greeting()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Hello"/>
+			<string key="Sitter" value="U|hello*"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|question(data)"/>
+			<string key="activity name" value="question(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|count(data)"/>
+			<string key="activity name" value="count(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|reject()"/>
+			<string key="activity name" value="reject()"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Feedback"/>
+			<string key="Sitter" value="U|reject"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|prompt(keywords)"/>
+			<string key="activity name" value="prompt(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|bool(data)"/>
+			<string key="activity name" value="bool(data)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|list(keywords)"/>
+			<string key="activity name" value="list(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Request"/>
+			<string key="Sitter" value="A|offer"/>
+		</event>
+		<event>
+			<string key="resource" value="U"/>
+			<string key="resource+activity" value="U|set(keywords)"/>
+			<string key="activity name" value="set(keywords)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Query"/>
+			<string key="Sitter" value="U|request"/>
+		</event>
+		<event>
+			<string key="resource" value="A"/>
+			<string key="resource+activity" value="A|link(dataset)"/>
+			<string key="activity name" value="link(dataset)"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Response"/>
+			<string key="Sitter" value="A|assert"/>
+		</event>
+	</trace>
+</log>

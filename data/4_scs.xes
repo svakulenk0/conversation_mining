@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="(Event Name AND Lifecycle transition)" keys="concept:name lifecycle:transition"/>
+	<string key="concept:name" value="XES Event Log"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<event>
+			<string key="message" value="In which countries... in which european countries... do they grow cinnamon"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:02.7"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:11.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="Reads titles from first 2 search results, no modification"/>
+			<string key="message" value="There is a bunch or results and the first one is Wikipedia uhm... which just talks about cinnamon but the next one talks about the top 5 uhm cinnamon producing countries"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:40.9"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:51.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10"/>
+		<event>
+			<string key="message" value="turkish river control"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:22.6"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:24.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="yeah"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:30.7"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:31.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Confirms"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+		<event>
+			<string key="message" value="What results came up?"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:33.5"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:34.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:SERP information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11"/>
+		<event>
+			<string key="message" value="Rome water supply"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="01:51.9"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="01:54.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... yeah uhm... it pops up... it talks about the aqueduct and stuff and... yeah... pretty much more based on it&apos;s history"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="02:05.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="02:16.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12"/>
+		<event>
+			<string key="message" value="health benefits of marine vegetation"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="04:57.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="05:01.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... yah"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="05:11.1"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="05:12.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Confirms"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+		<event>
+			<string key="message" value="what kind of results come up"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="05:12.5"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="05:15.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:SERP information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13"/>
+		<event>
+			<string key="message" value="Search for US unemployment plus outsourcing"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:07.1"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:13.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="so do you like to ask about the US unemployment rate or... range or number or"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="01:00.8"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="01:13.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... well... uhm... not the rate or anything like that uhm... it&apos;s... just the concept of unemployment... unemployed people"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="01:14.5"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="01:30.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14"/>
+		<event>
+			<string key="message" value="Can you search for language plus new caledonia"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:16.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:22.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="New"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:22.8"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="10:23.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="New caledonia the country"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:23.9"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="10:26.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query embellishment"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15"/>
+		<event>
+			<string key="message" value="can you search for... airport security plus success"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="12:20.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="12:32.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="In a certain place"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="12:36.6"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="12:37.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... no... in general"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="12:39.2"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="12:40.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16"/>
+		<event>
+			<string key="message" value="Effectiveness of security measures at airports"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:07.1"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:15.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="so it is effective measures"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:24.4"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:27.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="effectiveness... new security measures at airports"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:27.0"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:30.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query embellishment"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17"/>
+		<event>
+			<string key="message" value="Health benefits of marine vegetation"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="10:26.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:30.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="reads out three titles"/>
+			<string key="message" value="Searching health benefits of marine vegetation... so the first article that comes up reap the health benefits of tiny marine plants by food trends... second article sea vegetables the world&apos;s healthiest foods... third article the benefits of marine phytoplankton by wellness mama"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="10:49.3"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="11:18.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18"/>
+		<event>
+			<string key="message" value="Rome&apos;s major river"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="19:08.9"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="19:11.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="Search stopped by user"/>
+			<string key="message" value="So... it comes up with the Tiber"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="19:27.7"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="19:29.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19"/>
+		<event>
+			<string key="message" value="What&apos;s the average alcohol consumption of an Australian"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:05.9"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:11.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="reads out first 3 SERP titles"/>
+			<string key="message" value="okay... uhm drinking habits of australians uhm apparent consumption of alcohol Australia this is from the Australian bureau of statistics uhm... alcohol consumption from the bureau of statistics... is it just australians or..."/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:16.8"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:48.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification + Suggestion"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2"/>
+		<event>
+			<string key="message" value="Can you type in... uhm...effective effectiveness of new security measures at airports"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="06:34.3"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="06:47.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="Australia or at the airport"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="06:58.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="07:02.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="put uhm... put international airports"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="07:02.9"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="07:08.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20"/>
+		<event>
+			<string key="message" value="Which country does cinnamon which country grows the most cinnamon"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:19.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:24.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="SERP card"/>
+			<string key="message" value="Sri lanka"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:32.6"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="10:33.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21"/>
+		<event>
+			<string key="message" value="What jobs that used to be in the US... are no longer have been outsourced to india"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="16:54.6"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="17:02.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="which jobs from the united states have been outsourced to india"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="17:05.9"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="17:08.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="yea"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="17:08.9"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="17:09.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|accept"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Confirms"/>
+			<string key="concept:name" value="Feedback"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22"/>
+		<event>
+			<string key="message" value="can you please search new Caledonia and also the word language"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:02.3"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:07.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="can you please uhm repeat the question"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:15.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:18.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... new caledonia... would you like me to spell it"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:18.3"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:21.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23"/>
+		<event>
+			<string key="message" value="Can you please search... Iraq water resources... and then word turkey as well"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="01:48.8"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="02:03.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="Is it about Iraq&apos;s water crisis"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="02:25.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="02:28.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="probably uhm... I am looking for information about how uhm... how like dams in turkey might be effected water supplies in Iraq... it might also work to search for rivers cross over the border between turkey and Iraq because that might uhm... bring up more specific information related rivers"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="02:28.4"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="03:17.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24"/>
+		<event>
+			<string key="Notes" value="User tells the receiver what exactly to look for in the SERP"/>
+			<string key="message" value="Can you please search car tyre recycling... and in the results I am looking for examples of what uhm... recycled car tyres are used for"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="05:28.4"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="05:48.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="Retriever went to the images section in google to see what the uses are of tyres"/>
+			<string key="message" value="they use it for chair furniture uhm... and then for uhm... as a pot"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="06:04.9"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="06:20.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25"/>
+		<event>
+			<string key="message" value="What is the river in rome called"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:05.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:07.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="there is a bunch of hits that tiber tiber T I B E R and yah in Rome"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:23.9"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:36.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26"/>
+		<event>
+			<string key="message" value="where do tyres go when they are being recycled"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="04:36.6"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="04:40.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="well uhm... the first result is just a company"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="05:28.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="05:33.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27"/>
+		<event>
+			<string key="message" value="have turkish river control projects affected Iraqi water resources... so we are looking for if dams or irrigation schemes have affected uhm... any of the Iraqi people"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="12:29.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="13:03.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="the first result that came up was a PDF by uhm... I think it is the turkish government... gov.tr uhm... it says that there are water issues between turkey, Syria and Iraq... I am just looking... the full pdf wasn&apos;t there but there is uhm... a non-profit website in here that... says uhm... yes, so it&apos;s called turkey&apos;s rivers dispute... I am just looking at it here... so... so turkey doesn&apos;t have new water resources so they use almost all of their water... so they&apos;ve put a lot of money into it, they made quite a lot of dams... so just reading here and see what it says about Iraq was it?"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="13:06.4"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="15:34.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Scanning document theme"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28"/>
+		<event>
+			<string key="message" value="where does cinnamon come from"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:04.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:05.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="sorry say that again"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:07.5"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:08.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="Where does cinnamon come from"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="00:08.8"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:10.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="29"/>
+		<event>
+			<string key="message" value="new security measures at airports"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="01:05.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="01:08.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="so new security measures at airport... which airport"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="01:09.3"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="01:13.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... just airports in general"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="01:13.8"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="01:15.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Airport Security"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<event>
+			<string key="message" value="What US jobs have been outsourced to India"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="17:24.0"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="17:36.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="Can I put in united states"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="17:50.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="17:52.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="yeah"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="17:52.7"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="17:53.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|accept"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Confirms"/>
+			<string key="concept:name" value="Feedback"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30"/>
+		<event>
+			<string key="message" value="US jobs outsourced to india"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="06:17.8"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="06:21.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="Can you repeat that please"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="06:23.5"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="06:25.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="US jobs that have been outsourced to india"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="06:25.1"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="06:30.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Outsource job India"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query embellishment"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="31"/>
+		<event>
+			<string key="message" value="can you just type in tyre uhm... car tyre recycling"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:05.2"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:10.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="so are you looking for uhm... the people who recycle tyres"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:18.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:23.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="uhm... I just want to see what the tyres..."/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:23.2"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:27.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32"/>
+		<event>
+			<string key="message" value="OK so I need you to look up uhm... Australian alcohol consumption per capita"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="06:08.1"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="06:20.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="yeah"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="06:22.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="06:22.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Confirms"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+		<event>
+			<string key="message" value="so what&apos;s the first result that you get... do you get a..."/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="06:24.9"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="06:27.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:SERP information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33"/>
+		<event>
+			<string key="message" value="Can you type in new caledonia"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="13:16.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="13:20.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="New"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="13:21.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="13:21.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="new caledonia C A L E D O N I A uhm... language"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="13:21.6"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="13:30.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query embellishment"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34"/>
+		<event>
+			<string key="message" value="algae seaweed health"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:19.1"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:20.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="pardon"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:21.5"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:22.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="algae seaweed health"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:22.7"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:25.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="35"/>
+		<event>
+			<string key="message" value="so the count... part in uhm... a biscuits that you are get from Europe... uhm... it contains cinnamon... and... I want to know where the cinnamon is coming from... are there... is this... uhm... is this coming from Europe uhm... so how to uhm... search for uhm... cinnamon Europe biscuits"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:25.7"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:53.3"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="cinnamon what sorry"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:53.4"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="10:55.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="Europe"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:55.2"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="10:55.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="36"/>
+		<event>
+			<string key="message" value="can you start with alcohol consumption uhm... in different kind countries"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="19:59.8"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="20:07.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="I have scholar articles as well as alcohol consumption per capita... would you like to see more of that"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="20:11.9"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="20:19.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification + Suggestion"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="37"/>
+		<event>
+			<string key="message" value="search for rivers in turkey and Iraq"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:12.6"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:17.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="Rivers"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:17.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:18.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="rivers in turkey and Iraq so that is R I V E R S"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="00:18.4"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="00:25.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Turkey Iraq Water"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38"/>
+		<event>
+			<string key="message" value="the first search is rivers in rome"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:08.1"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:11.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="yep... do you want the names of the rivers"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:12.1"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="10:15.0"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="A|offer"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Query refinement offer"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="No just... just do a search on the rivers in rome"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:15.2"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="10:19.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What river runs through Rome, Italy?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Intent clarification"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="39"/>
+		<event>
+			<string key="message" value="Ok uhm... in this case I want you to put an end between each word... and they are health... algae... A G... I am sorry A L G A E"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="14:56.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="15:09.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="I am in a deadlock can you"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="15:11.1"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="15:14.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="sure it&apos;s health and algae A L G A E and seaweed and kelp"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="15:14.7"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="15:32.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query embellishment"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4"/>
+		<event>
+			<string key="message" value="Uses for old car then the query or... passenger vehicle tyres... T Y R E S or... in caps tires... T I R E S... and I wanna uhm... do a date range so the data is from a recent 12 months... so uses for old car caps or passenger vehicle or tyres T Y R E S caps or tires T I R E S and data in the last 12 months that&apos;s the query"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:14.6"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="01:18.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="Reads all search results, mainly titles"/>
+			<string key="message" value="So far from the last 12 months I... first results is second hand tyres in Sydney uhmäó_ from a wreckers the second result is compare tyres from drive.com.au uhm... the third result is uhm... an other wreckers in Brisbane used tyres in Frankston is the fourth result wheel and rim profiles of passenger cars tyre size calculator uhm... then there is the car bible uhm wheel and tyre bible which looks like it is everything you need to know about wheels and tyres from cars... the next one is beaurepaires... so an other tyres sales place... uhm one used car pick the tyres uhm... what damage does a car suffer if not refually used on a forum and then the last result is Bridgestone pricing"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="01:19.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="02:27.4"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="recycle, automobile tires"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5"/>
+		<event>
+			<string key="message" value="Please compare first word it might put compare average international uhm... and I like in inverted commas the words alcohol consumption... closing inverted commas and then in opening inverted commas per capita that is P E R capita C A P I T A closing inverted commas and that&apos;s... if you could return the searches for that please..."/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="10:16.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="11:02.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="sorry what... can you repeat that sentence"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="11:07.4"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="11:09.6"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="A|request*"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:Asks to repeat"/>
+			<string key="concept:name" value="Request"/>
+		</event>
+		<event>
+			<string key="message" value="compare average open inverted commas oh sorry compare average international open inverted commas alcohol consumption close inverted commas open inverted commas per capita close inverted commas"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="11:10.3"/>
+			<int key="message count" value="3"/>
+			<string key="stop time" value="11:29.9"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Query repeat"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6"/>
+		<event>
+			<string key="message" value="please search for the following phrase... what language language in inverted commas is spoken in open inverted commas new Caledonia close inverted commas... can you please check the caledonia CALEDONIA"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="21:14.0"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="21:47.5"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="Search stopped by user"/>
+			<string key="message" value="uhm... it has come up straight away with a result uhm... in google uhm... new caledonia official language French"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="21:59.7"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="22:02.1"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="What language do they speak in New Caledonia?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7"/>
+		<event>
+			<string key="message" value="maybe start of with type in marine vegetation and read up on what it kind of means"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:01.4"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="00:10.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="ok I have an article about marine vegetation... plants that inhabit the seas and oceans... they include algae grasses mangrove trees and shrubs"/>
+			<string key="Query.complexity" value="understand"/>
+			<string key="start time" value="00:20.2"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="00:35.2"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Marine Vegetation"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP with modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8"/>
+		<event>
+			<string key="message" value="maybe start of with uhm... type in... the origins of cinnamon"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:16.7"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="10:21.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="Notes" value="SERP card"/>
+			<string key="message" value="uhm I have around 1518 Portuguese traders discovered cinnamon at Ceylon present-day Sri Lanka"/>
+			<string key="Query.complexity" value="remember"/>
+			<string key="start time" value="10:33.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="10:41.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="Where does cinnamon come from?"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9"/>
+		<event>
+			<string key="message" value="ok so... uhm... in general I sort of want to try to find out the average consumption of alcohol uhm by... by the country state... for local level... so maybe just start of with type in uhm alcohol consumption by country... tell me if anything related to statistics uhm... about alcohol consumption uhm... between countries"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="20:18.5"/>
+			<int key="message count" value="1"/>
+			<string key="stop time" value="21:00.7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="U|request"/>
+			<string key="resource" value="A_User"/>
+			<string key="activity name" value="A:Initial information request"/>
+			<string key="concept:name" value="Query"/>
+		</event>
+		<event>
+			<string key="message" value="so I have a document about global consumption of alcohol by the world bank"/>
+			<string key="Query.complexity" value="analyze"/>
+			<string key="start time" value="21:03.0"/>
+			<int key="message count" value="2"/>
+			<string key="stop time" value="21:08.8"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="query" value="per capita alcohol consumption"/>
+			<string key="Sitter" value="A|assert"/>
+			<string key="resource" value="B_Receiver"/>
+			<string key="activity name" value="B:SERP without modification"/>
+			<string key="concept:name" value="Response"/>
+		</event>
+	</trace>
+</log>
