@@ -1,0 +1,185 @@
+'Name';'Constraint template';'Implying activity';'Implied activity';'Support';'Confidence level';'Interest factor'
+'AtMostOne(Feedback)';'AtMostOne';'Feedback';'';100.000;5.128;0.263
+'End(Feedback)';'End';'Feedback';'';5.128;0.263;0.013
+'Init(Feedback)';'Init';'Feedback';'';0.000;0.000;0.000
+'Participation(Feedback)';'Participation';'Feedback';'';5.128;0.263;0.013
+'CoExistence(Feedback, Query)';'CoExistence';'Feedback';'Query';6.452;0.331;0.331
+'Succession(Feedback, Query)';'Succession';'Feedback';'Query';0.000;0.000;0.000
+'AlternateSuccession(Feedback, Query)';'AlternateSuccession';'Feedback';'Query';0.000;0.000;0.000
+'ChainSuccession(Feedback, Query)';'ChainSuccession';'Feedback';'Query';0.000;0.000;0.000
+'RespondedExistence(Feedback, Query)';'RespondedExistence';'Feedback';'Query';100.000;5.128;5.128
+'Response(Feedback, Query)';'Response';'Feedback';'Query';0.000;0.000;0.000
+'AlternateResponse(Feedback, Query)';'AlternateResponse';'Feedback';'Query';0.000;0.000;0.000
+'ChainResponse(Feedback, Query)';'ChainResponse';'Feedback';'Query';0.000;0.000;0.000
+'NotChainSuccession(Feedback, Query)';'NotChainSuccession';'Feedback';'Query';100.000;5.128;5.128
+'NotSuccession(Feedback, Query)';'NotSuccession';'Feedback';'Query';100.000;5.128;5.128
+'NotCoExistence(Feedback, Query)';'NotCoExistence';'Feedback';'Query';93.548;4.797;4.797
+'CoExistence(Feedback, Request)';'CoExistence';'Feedback';'Request';18.182;0.932;0.478
+'Succession(Feedback, Request)';'Succession';'Feedback';'Request';0.000;0.000;0.000
+'AlternateSuccession(Feedback, Request)';'AlternateSuccession';'Feedback';'Request';0.000;0.000;0.000
+'ChainSuccession(Feedback, Request)';'ChainSuccession';'Feedback';'Request';0.000;0.000;0.000
+'RespondedExistence(Feedback, Request)';'RespondedExistence';'Feedback';'Request';100.000;5.128;2.630
+'Response(Feedback, Request)';'Response';'Feedback';'Request';0.000;0.000;0.000
+'AlternateResponse(Feedback, Request)';'AlternateResponse';'Feedback';'Request';0.000;0.000;0.000
+'ChainResponse(Feedback, Request)';'ChainResponse';'Feedback';'Request';0.000;0.000;0.000
+'NotChainSuccession(Feedback, Request)';'NotChainSuccession';'Feedback';'Request';100.000;5.128;2.630
+'NotSuccession(Feedback, Request)';'NotSuccession';'Feedback';'Request';100.000;5.128;2.630
+'NotCoExistence(Feedback, Request)';'NotCoExistence';'Feedback';'Request';81.818;4.196;2.152
+'CoExistence(Feedback, Response)';'CoExistence';'Feedback';'Response';0.000;0.000;0.000
+'Succession(Feedback, Response)';'Succession';'Feedback';'Response';0.000;0.000;0.000
+'AlternateSuccession(Feedback, Response)';'AlternateSuccession';'Feedback';'Response';0.000;0.000;0.000
+'ChainSuccession(Feedback, Response)';'ChainSuccession';'Feedback';'Response';0.000;0.000;0.000
+'RespondedExistence(Feedback, Response)';'RespondedExistence';'Feedback';'Response';0.000;0.000;0.000
+'Response(Feedback, Response)';'Response';'Feedback';'Response';0.000;0.000;0.000
+'AlternateResponse(Feedback, Response)';'AlternateResponse';'Feedback';'Response';0.000;0.000;0.000
+'ChainResponse(Feedback, Response)';'ChainResponse';'Feedback';'Response';0.000;0.000;0.000
+'NotChainSuccession(Feedback, Response)';'NotChainSuccession';'Feedback';'Response';100.000;5.128;2.498
+'NotSuccession(Feedback, Response)';'NotSuccession';'Feedback';'Response';100.000;5.128;2.498
+'NotCoExistence(Feedback, Response)';'NotCoExistence';'Feedback';'Response';100.000;5.128;2.498
+'Precedence(Query, Feedback)';'Precedence';'Feedback';'Query';100.000;100.000;5.128
+'AlternatePrecedence(Query, Feedback)';'AlternatePrecedence';'Feedback';'Query';100.000;100.000;5.128
+'ChainPrecedence(Query, Feedback)';'ChainPrecedence';'Feedback';'Query';0.000;0.000;0.000
+'Precedence(Request, Feedback)';'Precedence';'Feedback';'Request';100.000;51.282;2.630
+'AlternatePrecedence(Request, Feedback)';'AlternatePrecedence';'Feedback';'Request';100.000;51.282;2.630
+'ChainPrecedence(Request, Feedback)';'ChainPrecedence';'Feedback';'Request';100.000;51.282;2.630
+'Precedence(Response, Feedback)';'Precedence';'Feedback';'Response';0.000;0.000;0.000
+'AlternatePrecedence(Response, Feedback)';'AlternatePrecedence';'Feedback';'Response';0.000;0.000;0.000
+'ChainPrecedence(Response, Feedback)';'ChainPrecedence';'Feedback';'Response';0.000;0.000;0.000
+'AtMostOne(Query)';'AtMostOne';'Query';'';46.154;46.154;46.154
+'End(Query)';'End';'Query';'';53.846;53.846;53.846
+'Init(Query)';'Init';'Query';'';100.000;100.000;100.000
+'Participation(Query)';'Participation';'Query';'';100.000;100.000;100.000
+'Precedence(Feedback, Query)';'Precedence';'Query';'Feedback';0.000;0.000;0.000
+'AlternatePrecedence(Feedback, Query)';'AlternatePrecedence';'Query';'Feedback';0.000;0.000;0.000
+'ChainPrecedence(Feedback, Query)';'ChainPrecedence';'Query';'Feedback';0.000;0.000;0.000
+'CoExistence(Query, Feedback)';'CoExistence';'Query';'Feedback';6.452;0.331;0.331
+'Succession(Query, Feedback)';'Succession';'Query';'Feedback';6.452;0.331;0.331
+'AlternateSuccession(Query, Feedback)';'AlternateSuccession';'Query';'Feedback';6.452;0.331;0.331
+'ChainSuccession(Query, Feedback)';'ChainSuccession';'Query';'Feedback';0.000;0.000;0.000
+'RespondedExistence(Query, Feedback)';'RespondedExistence';'Query';'Feedback';3.333;3.333;0.171
+'Response(Query, Feedback)';'Response';'Query';'Feedback';3.333;3.333;0.171
+'AlternateResponse(Query, Feedback)';'AlternateResponse';'Query';'Feedback';3.333;3.333;0.171
+'ChainResponse(Query, Feedback)';'ChainResponse';'Query';'Feedback';0.000;0.000;0.000
+'NotChainSuccession(Query, Feedback)';'NotChainSuccession';'Query';'Feedback';100.000;5.128;5.128
+'NotSuccession(Query, Feedback)';'NotSuccession';'Query';'Feedback';93.548;4.797;4.797
+'NotCoExistence(Query, Feedback)';'NotCoExistence';'Query';'Feedback';93.548;4.797;4.797
+'CoExistence(Query, Request)';'CoExistence';'Query';'Request';72.500;37.179;37.179
+'Succession(Query, Request)';'Succession';'Query';'Request';50.000;25.641;25.641
+'AlternateSuccession(Query, Request)';'AlternateSuccession';'Query';'Request';50.000;25.641;25.641
+'ChainSuccession(Query, Request)';'ChainSuccession';'Query';'Request';50.000;25.641;25.641
+'RespondedExistence(Query, Request)';'RespondedExistence';'Query';'Request';63.333;63.333;32.479
+'Response(Query, Request)';'Response';'Query';'Request';33.333;33.333;17.094
+'AlternateResponse(Query, Request)';'AlternateResponse';'Query';'Request';33.333;33.333;17.094
+'ChainResponse(Query, Request)';'ChainResponse';'Query';'Request';33.333;33.333;17.094
+'NotChainSuccession(Query, Request)';'NotChainSuccession';'Query';'Request';50.000;25.641;25.641
+'NotSuccession(Query, Request)';'NotSuccession';'Query';'Request';50.000;25.641;25.641
+'NotCoExistence(Query, Request)';'NotCoExistence';'Query';'Request';27.500;14.103;14.103
+'CoExistence(Query, Response)';'CoExistence';'Query';'Response';51.899;25.284;25.284
+'Succession(Query, Response)';'Succession';'Query';'Response';48.101;23.434;23.434
+'AlternateSuccession(Query, Response)';'AlternateSuccession';'Query';'Response';48.101;23.434;23.434
+'ChainSuccession(Query, Response)';'ChainSuccession';'Query';'Response';48.101;23.434;23.434
+'RespondedExistence(Query, Response)';'RespondedExistence';'Query';'Response';36.667;36.667;17.863
+'Response(Query, Response)';'Response';'Query';'Response';31.667;31.667;15.427
+'AlternateResponse(Query, Response)';'AlternateResponse';'Query';'Response';31.667;31.667;15.427
+'ChainResponse(Query, Response)';'ChainResponse';'Query';'Response';31.667;31.667;15.427
+'NotChainSuccession(Query, Response)';'NotChainSuccession';'Query';'Response';51.899;25.284;25.284
+'NotSuccession(Query, Response)';'NotSuccession';'Query';'Response';51.899;25.284;25.284
+'NotCoExistence(Query, Response)';'NotCoExistence';'Query';'Response';48.101;23.434;23.434
+'Precedence(Request, Query)';'Precedence';'Query';'Request';30.000;15.385;15.385
+'AlternatePrecedence(Request, Query)';'AlternatePrecedence';'Query';'Request';30.000;15.385;15.385
+'ChainPrecedence(Request, Query)';'ChainPrecedence';'Query';'Request';30.000;15.385;15.385
+'Precedence(Response, Query)';'Precedence';'Query';'Response';5.000;2.436;2.436
+'AlternatePrecedence(Response, Query)';'AlternatePrecedence';'Query';'Response';5.000;2.436;2.436
+'ChainPrecedence(Response, Query)';'ChainPrecedence';'Query';'Response';5.000;2.436;2.436
+'AtMostOne(Request)';'AtMostOne';'Request';'';100.000;51.282;26.298
+'End(Request)';'End';'Request';'';0.000;0.000;0.000
+'Init(Request)';'Init';'Request';'';0.000;0.000;0.000
+'Participation(Request)';'Participation';'Request';'';51.282;26.298;13.486
+'Precedence(Feedback, Request)';'Precedence';'Request';'Feedback';0.000;0.000;0.000
+'AlternatePrecedence(Feedback, Request)';'AlternatePrecedence';'Request';'Feedback';0.000;0.000;0.000
+'ChainPrecedence(Feedback, Request)';'ChainPrecedence';'Request';'Feedback';0.000;0.000;0.000
+'Precedence(Query, Request)';'Precedence';'Request';'Query';100.000;100.000;51.282
+'AlternatePrecedence(Query, Request)';'AlternatePrecedence';'Request';'Query';100.000;100.000;51.282
+'ChainPrecedence(Query, Request)';'ChainPrecedence';'Request';'Query';100.000;100.000;51.282
+'CoExistence(Request, Feedback)';'CoExistence';'Request';'Feedback';18.182;0.932;0.478
+'Succession(Request, Feedback)';'Succession';'Request';'Feedback';18.182;0.932;0.478
+'AlternateSuccession(Request, Feedback)';'AlternateSuccession';'Request';'Feedback';18.182;0.932;0.478
+'ChainSuccession(Request, Feedback)';'ChainSuccession';'Request';'Feedback';18.182;0.932;0.478
+'RespondedExistence(Request, Feedback)';'RespondedExistence';'Request';'Feedback';10.000;5.128;0.263
+'Response(Request, Feedback)';'Response';'Request';'Feedback';10.000;5.128;0.263
+'AlternateResponse(Request, Feedback)';'AlternateResponse';'Request';'Feedback';10.000;5.128;0.263
+'ChainResponse(Request, Feedback)';'ChainResponse';'Request';'Feedback';10.000;5.128;0.263
+'NotChainSuccession(Request, Feedback)';'NotChainSuccession';'Request';'Feedback';81.818;4.196;2.152
+'NotSuccession(Request, Feedback)';'NotSuccession';'Request';'Feedback';81.818;4.196;2.152
+'NotCoExistence(Request, Feedback)';'NotCoExistence';'Request';'Feedback';81.818;4.196;2.152
+'CoExistence(Request, Query)';'CoExistence';'Request';'Query';72.500;37.179;37.179
+'Succession(Request, Query)';'Succession';'Request';'Query';45.000;23.077;23.077
+'AlternateSuccession(Request, Query)';'AlternateSuccession';'Request';'Query';45.000;23.077;23.077
+'ChainSuccession(Request, Query)';'ChainSuccession';'Request';'Query';45.000;23.077;23.077
+'RespondedExistence(Request, Query)';'RespondedExistence';'Request';'Query';100.000;51.282;51.282
+'Response(Request, Query)';'Response';'Request';'Query';90.000;46.154;46.154
+'AlternateResponse(Request, Query)';'AlternateResponse';'Request';'Query';90.000;46.154;46.154
+'ChainResponse(Request, Query)';'ChainResponse';'Request';'Query';90.000;46.154;46.154
+'NotChainSuccession(Request, Query)';'NotChainSuccession';'Request';'Query';55.000;28.205;28.205
+'NotSuccession(Request, Query)';'NotSuccession';'Request';'Query';55.000;28.205;28.205
+'NotCoExistence(Request, Query)';'NotCoExistence';'Request';'Query';27.500;14.103;14.103
+'CoExistence(Request, Response)';'CoExistence';'Request';'Response';0.000;0.000;0.000
+'Succession(Request, Response)';'Succession';'Request';'Response';0.000;0.000;0.000
+'AlternateSuccession(Request, Response)';'AlternateSuccession';'Request';'Response';0.000;0.000;0.000
+'ChainSuccession(Request, Response)';'ChainSuccession';'Request';'Response';0.000;0.000;0.000
+'RespondedExistence(Request, Response)';'RespondedExistence';'Request';'Response';0.000;0.000;0.000
+'Response(Request, Response)';'Response';'Request';'Response';0.000;0.000;0.000
+'AlternateResponse(Request, Response)';'AlternateResponse';'Request';'Response';0.000;0.000;0.000
+'ChainResponse(Request, Response)';'ChainResponse';'Request';'Response';0.000;0.000;0.000
+'NotChainSuccession(Request, Response)';'NotChainSuccession';'Request';'Response';100.000;48.718;24.984
+'NotSuccession(Request, Response)';'NotSuccession';'Request';'Response';100.000;48.718;24.984
+'NotCoExistence(Request, Response)';'NotCoExistence';'Request';'Response';100.000;48.718;24.984
+'Precedence(Response, Request)';'Precedence';'Request';'Response';0.000;0.000;0.000
+'AlternatePrecedence(Response, Request)';'AlternatePrecedence';'Request';'Response';0.000;0.000;0.000
+'ChainPrecedence(Response, Request)';'ChainPrecedence';'Request';'Response';0.000;0.000;0.000
+'AtMostOne(Response)';'AtMostOne';'Response';'';100.000;48.718;23.734
+'End(Response)';'End';'Response';'';41.026;19.987;9.737
+'Init(Response)';'Init';'Response';'';0.000;0.000;0.000
+'Participation(Response)';'Participation';'Response';'';48.718;23.734;11.563
+'Precedence(Feedback, Response)';'Precedence';'Response';'Feedback';0.000;0.000;0.000
+'AlternatePrecedence(Feedback, Response)';'AlternatePrecedence';'Response';'Feedback';0.000;0.000;0.000
+'ChainPrecedence(Feedback, Response)';'ChainPrecedence';'Response';'Feedback';0.000;0.000;0.000
+'Precedence(Query, Response)';'Precedence';'Response';'Query';100.000;100.000;48.718
+'AlternatePrecedence(Query, Response)';'AlternatePrecedence';'Response';'Query';100.000;100.000;48.718
+'ChainPrecedence(Query, Response)';'ChainPrecedence';'Response';'Query';100.000;100.000;48.718
+'Precedence(Request, Response)';'Precedence';'Response';'Request';0.000;0.000;0.000
+'AlternatePrecedence(Request, Response)';'AlternatePrecedence';'Response';'Request';0.000;0.000;0.000
+'ChainPrecedence(Request, Response)';'ChainPrecedence';'Response';'Request';0.000;0.000;0.000
+'CoExistence(Response, Feedback)';'CoExistence';'Response';'Feedback';0.000;0.000;0.000
+'Succession(Response, Feedback)';'Succession';'Response';'Feedback';0.000;0.000;0.000
+'AlternateSuccession(Response, Feedback)';'AlternateSuccession';'Response';'Feedback';0.000;0.000;0.000
+'ChainSuccession(Response, Feedback)';'ChainSuccession';'Response';'Feedback';0.000;0.000;0.000
+'RespondedExistence(Response, Feedback)';'RespondedExistence';'Response';'Feedback';0.000;0.000;0.000
+'Response(Response, Feedback)';'Response';'Response';'Feedback';0.000;0.000;0.000
+'AlternateResponse(Response, Feedback)';'AlternateResponse';'Response';'Feedback';0.000;0.000;0.000
+'ChainResponse(Response, Feedback)';'ChainResponse';'Response';'Feedback';0.000;0.000;0.000
+'NotChainSuccession(Response, Feedback)';'NotChainSuccession';'Response';'Feedback';100.000;5.128;2.498
+'NotSuccession(Response, Feedback)';'NotSuccession';'Response';'Feedback';100.000;5.128;2.498
+'NotCoExistence(Response, Feedback)';'NotCoExistence';'Response';'Feedback';100.000;5.128;2.498
+'CoExistence(Response, Query)';'CoExistence';'Response';'Query';51.899;25.284;25.284
+'Succession(Response, Query)';'Succession';'Response';'Query';7.595;3.700;3.700
+'AlternateSuccession(Response, Query)';'AlternateSuccession';'Response';'Query';7.595;3.700;3.700
+'ChainSuccession(Response, Query)';'ChainSuccession';'Response';'Query';7.595;3.700;3.700
+'RespondedExistence(Response, Query)';'RespondedExistence';'Response';'Query';100.000;48.718;48.718
+'Response(Response, Query)';'Response';'Response';'Query';15.789;7.692;7.692
+'AlternateResponse(Response, Query)';'AlternateResponse';'Response';'Query';15.789;7.692;7.692
+'ChainResponse(Response, Query)';'ChainResponse';'Response';'Query';15.789;7.692;7.692
+'NotChainSuccession(Response, Query)';'NotChainSuccession';'Response';'Query';92.405;45.018;45.018
+'NotSuccession(Response, Query)';'NotSuccession';'Response';'Query';92.405;45.018;45.018
+'NotCoExistence(Response, Query)';'NotCoExistence';'Response';'Query';48.101;23.434;23.434
+'CoExistence(Response, Request)';'CoExistence';'Response';'Request';0.000;0.000;0.000
+'Succession(Response, Request)';'Succession';'Response';'Request';0.000;0.000;0.000
+'AlternateSuccession(Response, Request)';'AlternateSuccession';'Response';'Request';0.000;0.000;0.000
+'ChainSuccession(Response, Request)';'ChainSuccession';'Response';'Request';0.000;0.000;0.000
+'RespondedExistence(Response, Request)';'RespondedExistence';'Response';'Request';0.000;0.000;0.000
+'Response(Response, Request)';'Response';'Response';'Request';0.000;0.000;0.000
+'AlternateResponse(Response, Request)';'AlternateResponse';'Response';'Request';0.000;0.000;0.000
+'ChainResponse(Response, Request)';'ChainResponse';'Response';'Request';0.000;0.000;0.000
+'NotChainSuccession(Response, Request)';'NotChainSuccession';'Response';'Request';100.000;48.718;24.984
+'NotSuccession(Response, Request)';'NotSuccession';'Response';'Request';100.000;48.718;24.984
+'NotCoExistence(Response, Request)';'NotCoExistence';'Response';'Request';100.000;48.718;24.984
