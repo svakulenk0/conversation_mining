@@ -56,9 +56,10 @@ Optional columns:
 * length - duration of the conversation in seconds
 * caller_dialect_area - geo identifier for the cluster of resources from the set of {MIXED, NEW ENGLAND, NORTH MIDLAND, NORTHERN, NYC, SOUTH MIDLAND, SOUTHERN, UNK, WESTERN}
 
+
 ## References
 
+
+* Stefan Sitter and Adelheit Stein. 1992. [Modeling the illocutionary aspects of information-seeking dialogues](https://ac.els-cdn.com/030645739290044Z/1-s2.0-030645739290044Z-main.pdf). Information Processing & Management, 393 28(2):165–180.
+
 * Johanne R. Trippas, Damiano Spina, Lawrence Cavedon, and Mark Sanderson. [How Do People Interact in Conversational Speech-Only Search Tasks: A Preliminary Analysis](http://www.johannetrippas.com/papers/Trippas%20et%20al-CHIIR2017.pdf). The ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR), Oslo, Norway, 2017.
-
-
-* Zhao, Tiancheng and Zhao, Ran and Eskenazi, Maxine. [Learning Discourse-level Diversity for Neural Dialog Models using Conditional Variational Autoencoders](https://arxiv.org/pdf/1703.10960.pdf). ACL 2017 
