@@ -1,0 +1,5 @@
+A <= Feedback (Feedback)
+B <= Query (Query)
+C <= Request (Request)
+D <= Response (Response)
+
