@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<globalStatsTable logSize="39">
+    <statsTable>
+        <stats>
+            <task identifier="A" taskClass="Feedback"/>
+            <details occurencesAsFirst="0" occurrencesAsLast="2" totalAmountOfOccurrences="2">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>37</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-1">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-2">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="C" taskClass="Request"/>
+            <details occurencesAsFirst="0" occurrencesAsLast="0" totalAmountOfOccurrences="20">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>19</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>20</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>18</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>20</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>20</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-1">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="D" taskClass="Response"/>
+            <details occurencesAsFirst="0" occurrencesAsLast="16" totalAmountOfOccurrences="19">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>20</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>19</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>19</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>19</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>19</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-1">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>16</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="B" taskClass="Query"/>
+            <details occurencesAsFirst="39" occurrencesAsLast="21" totalAmountOfOccurrences="60">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="1">
+                            <counted>18</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>21</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>60</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>58</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>58</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>42</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>40</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>57</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>38</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>41</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>18</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+    </statsTable>
+</globalStatsTable>

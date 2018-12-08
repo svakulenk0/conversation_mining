@@ -1,0 +1,7 @@
+A <=  ()
+B <= Bye (Bye)
+C <= Feedback (Feedback)
+D <= Query (Query)
+E <= Response (Response)
+F <= Statement (Statement)
+

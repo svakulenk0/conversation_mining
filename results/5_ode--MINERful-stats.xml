@@ -1,0 +1,2592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<globalStatsTable logSize="26">
+    <statsTable>
+        <stats>
+            <task identifier="D" taskClass="Request"/>
+            <details occurencesAsFirst="6" occurrencesAsLast="0" totalAmountOfOccurrences="132">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>4</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="3">
+                            <counted>4</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="4">
+                            <counted>3</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="5">
+                            <counted>5</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="6">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="9">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="12">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="13">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="16">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>27</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>34</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>44</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>54</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>62</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>75</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>87</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>87</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>75</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>62</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>54</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>44</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>34</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>27</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>4</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="E" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>81</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>38</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>35</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>31</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="34">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>24</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>70</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>28</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>24</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>30</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>53</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>56</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>72</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>80</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>81</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>67</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>51</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>30</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>26</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>24</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="31">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>20</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>28</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>33</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>60</counted>
+                                </distance>
+                                <distance at="-31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>33</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>44</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>50</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>55</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>53</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>47</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>42</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>25</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>9</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>54</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>24</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Hello"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>72</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>71</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>131</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>48</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="E" taskClass="Response"/>
+            <details occurencesAsFirst="0" occurrencesAsLast="9" totalAmountOfOccurrences="62">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>9</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>6</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="3">
+                            <counted>5</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="4">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="5">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="6">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="7">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-34">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>31</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>35</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>38</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>31</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>8</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>16</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="E" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>9</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-35">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>14</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>37</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>35</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>2</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>16</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>29</counted>
+                                </distance>
+                                <distance at="-33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>10</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>13</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>3</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Hello"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>62</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>11</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="C" taskClass="Query"/>
+            <details occurencesAsFirst="10" occurrencesAsLast="0" totalAmountOfOccurrences="121">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="1">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="3">
+                            <counted>6</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="4">
+                            <counted>5</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="5">
+                            <counted>3</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="6">
+                            <counted>3</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="7">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="8">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="10">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="11">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>24</counted>
+                                </distance>
+                                <distance at="-33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-31">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>24</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>26</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>30</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>51</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>67</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>81</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>80</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>72</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>56</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>53</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>30</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>24</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>15</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>15</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>13</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="E" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>74</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>40</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>37</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>14</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="35">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>16</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>59</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>22</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-34">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>14</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>28</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>38</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>56</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>73</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>73</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>56</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>38</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>28</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>14</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="34">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>2</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>81</counted>
+                                </distance>
+                                <distance at="-32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>45</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>49</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>47</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>43</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>25</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>10</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>65</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>18</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Hello"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>68</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>67</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>120</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>41</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="A" taskClass="Feedback"/>
+            <details occurencesAsFirst="0" occurrencesAsLast="17" totalAmountOfOccurrences="82">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="1">
+                            <counted>8</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>7</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="3">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="4">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="5">
+                            <counted>3</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="6">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="7">
+                            <counted>2</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="9">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-25">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>25</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>42</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>47</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>53</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>55</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>50</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>44</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>33</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>32</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>2</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>10</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="E" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>26</counted>
+                                </distance>
+                                <distance at="-21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>16</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>32</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>21</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="31">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="33">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>26</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>26</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>17</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-28">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>25</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>43</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>47</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>49</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>45</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>22</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>18</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>15</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>11</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="32">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>45</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>15</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>36</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="-26">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-20">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>27</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>36</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>27</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>23</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>17</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>13</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>12</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>8</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Hello"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>46</counted>
+                                </distance>
+                                <distance at="-30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-23">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-19">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-18">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-17">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-16">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-15">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-14">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-11">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-10">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="-9">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-8">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="-7">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="-6">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-5">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="-4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-3">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>46</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>82</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>24</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+        <stats>
+            <task identifier="B" taskClass="Hello"/>
+            <details occurencesAsFirst="10" occurrencesAsLast="0" totalAmountOfOccurrences="20">
+                <repetitions>
+                    <repetitionsCounters>
+                        <repetitionsCounter times="0">
+                            <counted>14</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="1">
+                            <counted>5</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="2">
+                            <counted>6</counted>
+                        </repetitionsCounter>
+                        <repetitionsCounter times="3">
+                            <counted>1</counted>
+                        </repetitionsCounter>
+                    </repetitionsCounters>
+                </repetitions>
+                <interplayStats>
+                    <interplayStatsWith>
+                        <key identifier="D" taskClass="Request"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>9</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>1</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>8</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="E" taskClass="Response"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="0">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>1</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>8</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="C" taskClass="Query"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>19</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>7</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>10</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="20">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="21">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="22">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="25">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="26">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>1</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>8</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="A" taskClass="Feedback"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>20</counted>
+                                </distance>
+                                <distance at="3">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="4">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="5">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="6">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="7">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="8">
+                                    <counted>4</counted>
+                                </distance>
+                                <distance at="9">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="10">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="11">
+                                    <counted>6</counted>
+                                </distance>
+                                <distance at="12">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="13">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="14">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="15">
+                                    <counted>3</counted>
+                                </distance>
+                                <distance at="16">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="17">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="18">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="19">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="23">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="24">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="27">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="28">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="29">
+                                    <counted>2</counted>
+                                </distance>
+                                <distance at="30">
+                                    <counted>1</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>8</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                    <interplayStatsWith>
+                        <key identifier="B" taskClass="Hello"/>
+                        <details>
+                            <distances>
+                                <distance at="-2147483648">
+                                    <counted>5</counted>
+                                </distance>
+                                <distance at="-2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="-1">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="1">
+                                    <counted>8</counted>
+                                </distance>
+                                <distance at="2">
+                                    <counted>1</counted>
+                                </distance>
+                                <distance at="2147483647">
+                                    <counted>5</counted>
+                                </distance>
+                            </distances>
+                            <repetitionsInBetweenOnwards>0</repetitionsInBetweenOnwards>
+                            <repetitionsInBetweenBackwards>0</repetitionsInBetweenBackwards>
+                        </details>
+                    </interplayStatsWith>
+                </interplayStats>
+            </details>
+        </stats>
+    </statsTable>
+</globalStatsTable>
