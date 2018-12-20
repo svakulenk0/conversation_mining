@@ -1,8 +1,0 @@
- .idea/conversation_mining.iml
- .idea/encodings.xml
- .idea/misc.xml
- .idea/modules.xml
- .idea/vcs.xml
- .idea/workspace.xml
-notebooks/.ipynb_checkpoints/Sentiment analysis-checkpoint.ipynb
-notebooks/.ipynb_checkpoints/data_mongo-checkpoint.ipynb
