@@ -24,7 +24,7 @@ Publicly available datasets with conversation transcripts annotated with dialog 
 
 * [Open Data Exploration dataset](https://github.com/vendi12/ODExploration_data) for the conversational browsing task contains 26 transcripts annotated with dialog acts and entity spans. [Codebook](https://github.com/vendi12/ODExploration_data#annotations) License: MIT.
 
-## Annotations
+## Conversation Logs
 
 Format CSV for importing into ProM. One message/dialog act per row.
 
@@ -55,6 +55,15 @@ Optional columns:
 
 * length - duration of the conversation in seconds
 * caller_dialect_area - geo identifier for the cluster of resources from the set of {MIXED, NEW ENGLAND, NORTH MIDLAND, NORTHERN, NYC, SOUTH MIDLAND, SOUTHERN, UNK, WESTERN}
+
+
+## Annotations
+
+conducted by 2 annotators
+
+Annotation schema: Krippendorff's alpha, 0.997
+
+Dialogue success evaluation: Krippendorff's alpha 0.726
 
 
 ## References
