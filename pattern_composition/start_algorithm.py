@@ -48,3 +48,18 @@ from itertools import chain, combinations
 from compose_patterns import composePattern
 
 composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+
+# for the input from the file './sample_input.csv'
+# the resulting patterns are:
+
+# ---looking for patterns with a max pattern len: 6
+# ---max loops allowed: 1
+# ---number of patterns we are looking for: 5
+
+# <QAF*> 11813 ['<Q', 'Q', 'QA', 'A', 'AF', 'QAF', 'F', 'F*', '*', 'QAF*', 'AF*', '*>']
+# <1FAQ> 3718 ['<1', '1', '1F', 'FA', 'AQ', 'FAQ', 'Q>']
+# <QA*A> 3203 ['<QA', 'A*', 'QA*', '*A', 'A>']
+# <QR*2> 2117 ['<QR', 'QR', 'R', 'QR*', 'R*', '*2', '2', '2>']
+# <Q*QF> 1009 ['<Q*', 'Q*', '*Q', 'QF', 'F>']
+
+# Total score patternalized: 21860 / 34697
