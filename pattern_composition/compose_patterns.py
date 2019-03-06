@@ -1,8 +1,10 @@
 import itertools
 from itertools import chain, combinations
-from pympler.tracker import SummaryTracker
 
+# switch on this library only to get the stats on memorty usage for debug
+# from pympler.tracker import SummaryTracker
 
+# The program depends on the tree search, nodes of which are described below
 class Node:
     def __init__(self, pattern, pattern_composed_now = '', father_node = None, siblings = None, depth = 0, score_pattern = -1000000, score_composed_now = -1000000):
         self.pattern = pattern
@@ -15,7 +17,7 @@ class Node:
         self.siblings = siblings
 
 
-
+# separating patterns in the ones the we can start the serach with and others
 def findPatternsWithStartSymbol(patterns):
     patterns_with_start = set()
     patterns_without = set()
@@ -26,14 +28,17 @@ def findPatternsWithStartSymbol(patterns):
         total_score += i[1]
     return patterns_with_start, patterns_without, total_score
 
+# The main function to find composed patterns from the list of input patterns 
+# Input example:
+# patterns: <class 'list'>: [('>', 2199), ('<', 2199), ('Q', 2137), ('<Q', 2073), ('A', 1988), ('QA', 1714), ('<QA', 1588)]
+# patterns: is a list of tuples where first element is a pattern:
+# patterns: A-Z - are the activities
+# patterns: 1-9 - are the loops
+# patterns: <, > are the start and end symbol
 def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, max_loops_number = 1):
     print ("---looking for patterns with a max pattern len: " + str(max_pattern_len))
     print ("---max loops allowed: " + str(max_loops_number))
     print ("---number of patterns we are looking for: " + str(number_of_patterns_out))
-
-    # example input:
-    # numbers in the patters are signifying loops
-    #['FEFCGF', 'FCGFE', '<DFFE', 'FFEF', 'F1FF', 'FEE', 'FEG', 'EFE', 'EEF', 'FCF', 'FA', 'GG', 'E>', 'AF']
 
     # first we find starting points of our tree search
     start_points, all_others, total_score = findPatternsWithStartSymbol(patterns)
@@ -47,16 +52,11 @@ def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, ma
             siblings_of_root.add(Node(other[0], father_node=root, depth=1, score_pattern=other[1]))
 
         root.siblings = siblings_of_root
-
     all_others.clear()
 
+    # in this variable we keep all sub-result patterns 
     global best_composed
     best_composed = []
-
-# TODO
-#  max one loop is allowed when composing the pattern
-#  loops are:  ABA, ABGAB
-
 
     # check if there are less or equal of loops than allowed
     def find_loops(s1, s2):
@@ -68,9 +68,11 @@ def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, ma
         #     print (s1 + s2)
         return len(a) > max_loops_number
 
+    # core recursive function to find patterns by building the search tree
     def search(root):
         global best_composed
         for i in root.siblings:
+
             elements_to_compare = min(len(root.pattern_composed_now)-1, len(i.pattern))
 
             if not find_loops(root.pattern_composed_now, i.pattern):
@@ -98,23 +100,24 @@ def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, ma
                                 i.siblings = siblings_set
                                 search(i)
                             break
-
-
                     elements_to_compare -= 1
 
 
-    tracker = SummaryTracker()
+    # uncommend next to get the stats on memorty usage for debug
+    # tracker = SummaryTracker()
+
+    # this is the main loop where we search for each initial state 
     for rn in range(len(roots)):
         print("root number " + str(rn + 1) + "/" + str(len(roots)))
         search(roots[rn])
         roots[rn].siblings.clear()
+        
+        # uncommend next to get the stats on memorty usage for debug
+        # tracker.print_diff()
 
-        tracker.print_diff()
-
-
+    # greedy algo to search for best patterns with non repeatable composing patterns
     def sort_out_pattern(best_composed):
         best_composed = sorted(best_composed, key=lambda x: -x.score_composed_now)
-
         best_patterns_out = list()
         # greedy algorithm to find best #number_of_patterns_out number
         set_used = set()
@@ -143,42 +146,13 @@ def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, ma
 
         return best_patterns_out
 
-    sor = sort_out_pattern(best_composed)
-
     # now the optimization on how to choose number_of_patterns_out
     # that have biggest score, and non repeating composing patterns
-
-    elem_and_score = []
-    for i in sor:
-        score_overall = i.score_composed_now
-        temp = i
-        strs = set()
-        while temp:
-            strs.add(temp.pattern)
-            temp = temp.father_node
-
-        elem_and_score.append((score_overall, strs, i))
-
-    # # now create the sets of number_of_patterns_out nonrepeatable sets
-    # sets_5 = []
-    #
-    # for comb in itertools.combinations(elem_and_score, 5):
-    #     s = set()
-    #     t = True
-    #     pat_set = set()
-    #     score = 0
-    #     for el in comb:
-    #         if el[1] & s == set():
-    #             s = s.union(el[1])
-    #             score += el[0]
-    #         else:
-    #             t = False
-    #             break
-    #     if t:
-    #         sets_5.append([comb,s,score])
+    sor = sort_out_pattern(best_composed)
 
     total_score_patternalized = 0
 
+    # nice output of the results
     for i in sor:
         pat_check = i
         list_used = list()
@@ -191,4 +165,4 @@ def composePattern(patterns, max_pattern_len = 6, number_of_patterns_out = 5, ma
 
     print ("Total score patternalized: " + str(total_score_patternalized) +" / "+ str(total_score))
 
-    return None if sor == [] else (sor[0].pattern_composed_now, sor[0].score_composed_now)
+    return None if sor == [] else sor
