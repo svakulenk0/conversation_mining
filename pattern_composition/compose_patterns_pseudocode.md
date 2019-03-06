@@ -1,8 +1,10 @@
 ## Constraints
 
-Constraints: (1) size - at most n patterns;
+Constraints:
 
-(2) length (tree depth) - at most k symbols per pattern;
+(1) size - at most n patterns;
+
+(2) length (tree depth) - at most m symbols per pattern;
 
 (3) completeness - each component must begin with a start symbol and end with the end symbol;
 
