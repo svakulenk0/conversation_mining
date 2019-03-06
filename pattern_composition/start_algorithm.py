@@ -45,5 +45,6 @@ LoopsK = 1
 
 
 from itertools import chain, combinations
- 
+from compose_patterns import composePattern
+
 composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
