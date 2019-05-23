@@ -2,8 +2,12 @@ import csv
 
 #this file takes the frequent patterns as the output
 # and produces
+from pattern_composition.compose_patterns_optimised_pairs import composePatternOptPairs
 
-csvfile = open('sample_input.csv', 'r')
+# csvfile = open('sample_input.csv', 'r')
+csvfile = open('method_mining_input.csv', 'r')
+
+
 csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 
 Pns = next(csv_reader, None)
@@ -24,7 +28,7 @@ Cn = 5
 
 #TODO see these requirements
 # length is the number of symbols allowed in the pattern
-Length = 6
+Length = 10
 LoopsK = 1
 
 # one of the ways to look at this problem is to solve the optimization problem
@@ -47,7 +51,9 @@ LoopsK = 1
 from itertools import chain, combinations
 from compose_patterns import composePattern
 
-composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+
+# composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+composePatternOptPairs(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
 
 # for the input from the file './sample_input.csv'
 # the resulting patterns are:
