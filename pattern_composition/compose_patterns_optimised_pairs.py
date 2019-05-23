@@ -119,7 +119,8 @@ def composePatternOptPairs(patterns, max_pattern_len = 6, number_of_patterns_out
 
     print(solution_patterns)
 
-
+    for i in solution_patterns:
+        print(i.pattern_composed_now)
 
     print ("End of the calculations")
 

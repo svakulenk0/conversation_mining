@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a326561-b052-4937-8dd9-5cb2a56e129f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/frequent_sequences-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/frequent_sequences-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/QRFA-with-loops.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/QRFA-with-loops.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/frequent_sequences.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/frequent_sequences.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_composition/method_mining_input.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/method_mining_input.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pattern_composition/start_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/start_algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern_composition/start_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-139">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -52,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/pattern_composition/method_mining_input.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="314" selection-start-line="1" selection-start-column="314" selection-end-line="1" selection-end-column="314" />
+              <caret line="1" column="270" selection-start-line="1" selection-start-column="270" selection-end-line="1" selection-end-column="270" />
             </state>
           </provider>
         </entry>
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+            <state relative-caret-position="605">
+              <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
               <folding>
                 <element signature="e#1583#1709#0" />
               </folding>
@@ -118,8 +120,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern_composition/start_algorithm.py" />
         <option value="$PROJECT_DIR$/pattern_composition/method_mining_input.csv" />
+        <option value="$PROJECT_DIR$/pattern_composition/start_algorithm.py" />
         <option value="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" />
       </list>
     </option>
@@ -181,6 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -262,16 +265,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558474516372</updated>
-      <workItem from="1558474518061" duration="20146000" />
+      <workItem from="1558474518061" duration="21952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20146000" />
+    <option name="totallyTimeSpent" value="21952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1200" y="330" width="2560" height="1419" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12251392" />
@@ -284,8 +286,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33516052" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3312451" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33516052" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3312451" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,11 +324,31 @@
           <line>117</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/conversation_mining$start_algorithm.coverage" NAME="start_algorithm Coverage Results" MODIFIED="1558604917722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
+    <SUITE FILE_PATH="coverage/conversation_mining$start_algorithm.coverage" NAME="start_algorithm Coverage Results" MODIFIED="1558606597783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
     <SUITE FILE_PATH="coverage/conversation_mining$compose_patterns_optimised_pairs.coverage" NAME="compose_patterns_optimised_pairs Coverage Results" MODIFIED="1558604579810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
   </component>
   <component name="editorHistoryManager">
@@ -370,14 +392,14 @@
     <entry file="file://$PROJECT_DIR$/pattern_composition/method_mining_input.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="314" selection-start-line="1" selection-start-column="314" selection-end-line="1" selection-end-column="314" />
+          <caret line="1" column="270" selection-start-line="1" selection-start-column="270" selection-end-line="1" selection-end-column="270" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern_composition/start_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-139">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -386,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="109" column="46" lean-forward="true" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        <state relative-caret-position="605">
+          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
           <folding>
             <element signature="e#1583#1709#0" />
           </folding>

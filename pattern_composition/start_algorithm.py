@@ -28,7 +28,7 @@ Cn = 5
 
 #TODO see these requirements
 # length is the number of symbols allowed in the pattern
-Length = 10
+Length = 8
 LoopsK = 1
 
 # one of the ways to look at this problem is to solve the optimization problem
