@@ -112,15 +112,16 @@ def composePatternOptPairs(patterns, max_pattern_len = 6, number_of_patterns_out
                 max_val = score_tem
                 pat_candidate = pat
             score_tem = 0
-        max_val = 0
 
-        solution_patterns.append(copy.deepcopy(pat_candidate))
+        solution_patterns.append([copy.deepcopy(pat_candidate), set(pat_candidate.patterns_used.keys()).difference(patterns_used_in_solution), max_val])
         patterns_used_in_solution.update(pat_candidate.patterns_used.keys())
 
-    print(solution_patterns)
+        max_val = 0
+
+    #print(solution_patterns)
 
     for i in solution_patterns:
-        print(i.pattern_composed_now)
+        print(i[0].pattern_composed_now + " : " + str(i[1]) + ' : ' + str(i[2]))
 
     print ("End of the calculations")
 

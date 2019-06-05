@@ -23,12 +23,12 @@ print (sum(Yns))
 
 # the problem that we are trying to solve is how to distribute the available patterns into
 # Cn components
-Cn = 5
+Cn = 40
 # that will represent behaviour of the whole original input log
 
 #TODO see these requirements
 # length is the number of symbols allowed in the pattern
-Length = 8
+Length = 7
 LoopsK = 1
 
 # one of the ways to look at this problem is to solve the optimization problem
@@ -53,7 +53,7 @@ from compose_patterns import composePattern
 
 
 # composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
-composePatternOptPairs(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+composePatternOptPairs(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK , number_of_patterns_out=Cn)
 
 # for the input from the file './sample_input.csv'
 # the resulting patterns are:
