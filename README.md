@@ -1,8 +1,5 @@
-# Conversation mining
+# Conversation mining resources
 
-## Motivation
-
-This repository is designed to collect various publicly available conversational datasets in a CSV format for data analysis, such as process mining.
 
 ## Conversational data
 
@@ -59,7 +56,7 @@ Optional columns:
 
 ## Annotations
 
-conducted by 2 annotators
+Conducted by 2 annotators
 
 Annotation schema: Krippendorff's alpha, 0.997
 
