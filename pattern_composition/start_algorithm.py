@@ -2,8 +2,12 @@ import csv
 
 #this file takes the frequent patterns as the output
 # and produces
+from pattern_composition.compose_patterns_optimised_pairs import composePatternOptPairs
 
-csvfile = open('sample_input.csv', 'r')
+# csvfile = open('sample_input.csv', 'r')
+csvfile = open('method_mining_input.csv', 'r')
+
+
 csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
 
 Pns = next(csv_reader, None)
@@ -19,12 +23,12 @@ print (sum(Yns))
 
 # the problem that we are trying to solve is how to distribute the available patterns into
 # Cn components
-Cn = 5
+Cn = 40
 # that will represent behaviour of the whole original input log
 
 #TODO see these requirements
 # length is the number of symbols allowed in the pattern
-Length = 6
+Length = 8
 LoopsK = 1
 
 # one of the ways to look at this problem is to solve the optimization problem
@@ -47,7 +51,9 @@ LoopsK = 1
 from itertools import chain, combinations
 from compose_patterns import composePattern
 
-composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+
+# composePattern(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK)
+composePatternOptPairs(CoupledPY, max_pattern_len=Length, max_loops_number= LoopsK , number_of_patterns_out=Cn)
 
 # for the input from the file './sample_input.csv'
 # the resulting patterns are:
