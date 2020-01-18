@@ -4,7 +4,7 @@ Original dataset: https://github.com/JTrippas/Spoken-Conversational-Search/blob/
 
 1,044 utterances annotated with 135 distinct complex labels, e.g. 
 
-decomposed into 83 simple label types:
+that consist of 83 original-dataset labels:
 ```
 0 Within SERP search result
 1 Query rephrase
@@ -89,4 +89,34 @@ $ Information Request within SERP
 @ Next
 [ Access link within document
 \ Suggestion to move on
+```
+
+## Alternative labels
+
+QSRA schema:
+
+```
+Seeker:
+
+Q question (information request)
+E "yes" answer or accept (encouragement)
+D "no" answer or reject (discouragement)
+S statement (assertion)
+O other (filler)
+
+Assistant:
+
+R question (information request)
+Y "yes" answer or accept (encouragement)
+N "no" answer or reject (discouragement)
+A statement (assertion)
+F other (filler)
+```
+
+QS schema:
+
+```
+G greet and bye (conversation frame decorators)
+Q question (information request)
+S all other utterance type from the QSRA schema
 ```
