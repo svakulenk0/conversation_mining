@@ -120,3 +120,9 @@ G greet and bye (conversation frame decorators)
 Q question (information request)
 S all other utterance type from the QSRA schema
 ```
+
+Roles:
+```
+A Seeker
+B Assistant
+```
