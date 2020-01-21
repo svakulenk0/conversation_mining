@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a326561-b052-4937-8dd9-5cb2a56e129f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern_composition/results_20_01_2020.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern_composition/sample_input2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/extract_patterns.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/extract_patterns.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern_composition/start_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/start_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_composition/results_20_01_2020.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/results_20_01_2020.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_composition/sample_input2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_composition/sample_input2.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +19,6 @@
         <option value="Python Script" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>patterns_used</find>
-      <find>score_composed_now</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +120,8 @@
       <updated>1558474516372</updated>
       <workItem from="1558474518061" duration="21952000" />
       <workItem from="1559734884711" duration="2739000" />
-      <workItem from="1579540695586" duration="1670000" />
+      <workItem from="1579540695586" duration="1779000" />
+      <workItem from="1579597495028" duration="1212000" />
     </task>
     <servers />
   </component>
@@ -139,14 +133,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pattern_composition/compose_patterns_optimised_pairs.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/conversation_mining$compose_patterns_optimised_pairs.coverage" NAME="compose_patterns_optimised_pairs Coverage Results" MODIFIED="1558604579810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
-    <SUITE FILE_PATH="coverage/conversation_mining$start_algorithm.coverage" NAME="start_algorithm Coverage Results" MODIFIED="1579543745452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
+    <SUITE FILE_PATH="coverage/conversation_mining$start_algorithm.coverage" NAME="start_algorithm Coverage Results" MODIFIED="1579598679928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pattern_composition" />
   </component>
 </project>

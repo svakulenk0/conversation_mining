@@ -69,7 +69,8 @@ def composePatternOptPairs(patterns, max_pattern_len = 6, number_of_patterns_out
                 matching_pairs = p_pairs[patt.pattern_composed_now[-1]]
                 for p in matching_pairs:
 
-                    if not too_much_loops(patt.pattern_composed_now[-1]+p[0], max_loops_number):
+#                    if not too_much_loops(patt.pattern_composed_now[-1]+p[0], max_loops_number):
+                   if not too_much_loops(patt.pattern_composed_now+p[0], max_loops_number):
                         pattern_composed_now = (patt.pattern_composed_now + p[0])
                         patterns_used = patt.patterns_used.copy()
                         patterns_used[patt.pattern_composed_now[-1] + p[0]] = p[1]
