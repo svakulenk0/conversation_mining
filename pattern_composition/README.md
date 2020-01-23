@@ -3,7 +3,7 @@
 
 ## Input
 
-File with traces, e.g., scs/original_scs.stringenc.txt:
+File with traces where every event is encoded with a single symbol (do not use numbers for encoding, they are reserved to detect loops!), e.g., scs/original_scs.stringenc.txt:
 
 ```
 Vd/&k/&kzvd/dM/&de&
