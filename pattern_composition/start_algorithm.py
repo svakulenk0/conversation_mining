@@ -4,8 +4,8 @@ import csv
 # and produces
 from pattern_composition.compose_patterns_optimised_pairs import composePatternOptPairs
 
-# csvfile = open('sample_input.csv', 'r')
-csvfile = open('method_mining_input.csv', 'r')
+csvfile = open('sample_input2.csv', 'r')
+#csvfile = open('method_mining_input.csv', 'r')
 
 
 csv_reader = csv.reader(csvfile, delimiter=',', quotechar='|')
