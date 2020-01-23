@@ -1,40 +1,78 @@
 208 Initial information request -> Confirms -> Scanning document without modification -> Information request within document -> Within-Document search result
+163 Initial information request -> Query refinement offer -> Confirms -> SERP without modification
 138 Initial information request -> Query refinement offer -> Intent clarification -> SERP without modification -> Scanning document with modification
-93 Initial information request -> Asks to repeat -> Confirms -> Scanning document with modification -> Interpretation
-55 Initial information request -> SERP without modification -> Access source -> Scanning document without modification -> Confirms
-53 Initial information request -> Confirms -> SERP with modification -> Information request -> SERP without modification
-41 Initial information request -> SERP Card -> Asks to repeat -> Query repeat -> SERP without modification
-38 Initial information request -> Confirms -> Query refinement offer -> Confirms -> SERP without modification
-31 Initial information request -> Asks to repeat -> Query embellishment -> SERP without modification -> Confirms
+125 Initial information request -> Asks to repeat -> Confirms
+107 Initial information request -> Asks to repeat -> Information request within document -> Within-Document search result
+93 Initial information request -> Asks to repeat -> Query repeat -> SERP without modification -> Interpretation
+83 Initial information request -> Confirms
+77 Initial information request -> Confirms -> Scanning document with modification -> Interpretation
+63 Initial information request -> SERP without modification -> Scanning document with modification
+59 Initial information request -> Confirms -> Information request -> Asks to repeat -> Confirms
+50 Initial information request -> SERP without modification -> Access source -> Scanning document without modification -> Confirms
+42 Initial information request -> SERP without modification -> Access source -> Scanning document with modification
+41 Initial information request -> Confirms -> Query refinement offer -> Confirms -> SERP without modification
+40 Initial information request -> Confirms -> Scanning document without modification
+39 Initial information request -> Confirms -> Information request -> Confirms
+38 Initial information request -> Query refinement offer -> Confirms
+38 Initial information request -> SERP Card -> Asks to repeat -> Query embellishment -> SERP without modification
+34 Initial information request -> SERP without modification
+33 Initial information request -> Confirms -> SERP with modification -> Intent clarification -> Scanning document without modification
+30 Initial information request -> Asks to repeat -> Query repeat -> SERP without modification
 30 Initial information request -> Confirms -> Results? -> Feedback on what is happening -> Confirms
-22 Initial information request -> Confirms -> Information request -> Asks to repeat -> Confirms
+29 Initial information request -> SERP without modification -> Interpretation
+29 Initial information request -> SERP without modification -> Confirms -> Scanning document with modification -> Interpretation
+28 Initial information request -> SERP Card -> Asks to repeat -> Confirms
+23 Initial information request -> Confirms -> Scanning document without modification -> Confirms
 22 Initial information request -> Confirms -> Information request within document -> Within-Document search result -> Confirms
-21 Initial information request -> Confirms -> Scanning document without modification -> (Information request within document -> Within-Document search result) -> Scanning document without modification
 19 Initial information request -> SERP without modification -> Access source -> Checks navigational command -> Confirms
 18 Initial information request -> SERP without modification -> Asks to repeat -> Repeats -> Confirms
-18 Initial information request -> Query refinement offer -> Intent clarification -> Scanning document without modification -> Interpretation
-16 Initial information request -> SERP without modification -> Scanning document with modification -> Information request within document -> Scanning document without modification
+18 Initial information request -> Confirms -> Scanning document without modification -> (Information request within document -> Within-Document search result) -> Scanning document without modification
+17 Initial information request -> Confirms -> SERP without modification
+16 Initial information request -> Asks to repeat -> Information request within document -> Scanning document without modification -> Interpretation
+15 Initial information request -> Asks to repeat -> Repeats -> Confirms
 15 Initial information request -> SERP without modification -> Query refinement offer -> Rejects -> Confirms
 15 Initial information request -> SERP without modification -> Access source -> Source information -> Confirms
-14 Initial information request -> SERP without modification -> Interpretation -> Access source -> Scanning document with modification
+14 Initial information request -> Confirms -> Information request within document -> Scanning document without modification
+14 Initial information request -> Confirms -> Scanning document with modification -> Information request within document -> Confirms
 14 Initial information request -> Confirms -> Scanning document without modification -> Enquiry for further information -> Confirms
+13 Initial information request -> Query refinement offer -> Intent clarification -> SERP without modification
 13 Initial information request -> Confirms -> Scanning document without modification -> Is there more information -> Scanning document with modification
 13 Initial information request -> SERP without modification -> Information request -> Scanning document with modification -> Confirms
-11 Initial information request -> Confirms -> Scanning document without modification -> Information request -> Scanning document without modification
+12 Initial information request -> Confirms -> Scanning document with modification
+12 Initial information request -> Confirms -> Scanning document without modification -> Information request -> SERP without modification
+11 Initial information request -> Query refinement offer -> Rejects -> Confirms
 11 Initial information request -> Asks to repeat -> Intent clarification -> Query refinement offer -> Confirms
 11 Initial information request -> Query refinement offer -> Information request -> Query refinement offer -> Confirms
-11 Initial information request -> SERP without modification -> Access source -> Information request within document -> Confirms
-10 Initial information request -> Asks to repeat -> Query repeat -> Query refinement offer -> Confirms
+10 Initial information request -> Confirms -> SERP without modification -> Access source -> Scanning document with modification
+10 Initial information request -> SERP without modification -> Scanning document with modification -> Information request -> Scanning document without modification
+10 Initial information request -> SERP without modification -> Access source -> Information request within document -> Scanning document with modification
+9 Initial information request -> SERP without modification -> Information request -> Scanning document with modification
+9 Initial information request -> SERP without modification -> Interpretation -> Access source -> SERP without modification
+8 Initial information request -> Asks to repeat -> Intent clarification -> Scanning document with modification
+8 Initial information request -> Query refinement offer -> Information request -> SERP without modification
+8 Initial information request -> SERP without modification -> Access source -> Scanning document without modification
 8 Initial information request -> Confirms -> Intent clarification -> Scanning document with modification
-8 Initial information request -> Asks to repeat -> Information request within document -> Scanning document with modification
-8 Initial information request -> SERP without modification -> Scanning document with modification -> Information request -> Confirms
+7 Initial information request -> Confirms -> SERP with modification -> Information request -> Confirms
 7 Initial information request -> Query refinement offer -> Intent clarification -> Asks to repeat -> Confirms
-6 Initial information request -> Confirms -> SERP with modification -> Intent clarification -> Confirms
-6 Initial information request -> Confirms -> SERP without modification -> Access source -> Scanning document with modification
-5 Initial information request -> SERP without modification -> Scanning document with modification -> Information request within document -> Within-Document search result
+6 Initial information request -> SERP without modification -> Confirms
+6 Initial information request -> Confirms -> Query refinement offer -> Confirms
+6 Initial information request -> SERP without modification -> Scanning document with modification -> Confirms
+6 Initial information request -> Confirms -> Information request within document -> Confirms
+5 Initial information request -> Query refinement offer -> Intent clarification -> Scanning document without modification
+5 Initial information request -> Confirms -> Scanning document without modification -> Interpretation
+5 Initial information request -> Confirms -> Information request -> Scanning document without modification
+5 Initial information request -> Asks to repeat -> Information request within document -> Scanning document with modification
+5 Initial information request -> Confirms -> Information request within document -> Within-Document search result
 5 Initial information request -> Confirms -> Scanning document without modification -> Asks to repeat -> Confirms
+5 Initial information request -> Confirms -> Scanning document with modification -> Information request within document -> Within-Document search result
 4 Initial information request -> SERP Card
+4 Initial information request -> Asks to repeat -> Query embellishment -> SERP without modification
+4 Initial information request -> SERP without modification -> Query refinement offer -> Confirms
 4 Initial information request -> Query refinement offer -> Query embellishment -> SERP without modification
-3 Initial information request -> SERP without modification -> Access source -> SERP without modification
+4 Initial information request -> Asks to repeat -> Query repeat -> Query refinement offer -> Confirms
 3 Initial information request -> SERP without modification -> Interpretation -> Scanning document with modification
-3 Initial information request -> Asks to repeat -> Information request within document -> Within-Document search result -> Interpretation
+3 Initial information request -> Confirms -> Intent clarification -> Confirms
+3 Initial information request -> SERP without modification -> Access source -> SERP without modification
+3 Initial information request -> SERP without modification -> Asks to repeat -> Confirms
+2 Initial information request -> SERP without modification -> Interpretation -> Confirms
+2 Initial information request -> Asks to repeat -> Information request within document -> SERP without modification
