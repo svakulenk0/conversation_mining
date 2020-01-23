@@ -35,6 +35,16 @@ python3 run.py 'scs/original_scs.stringenc.txt' 5
 ```
 
 
-## Interpretation
+## Output
 
-(XY) a loop, i.e., a sequence repeated more than once, e.g., XYX or XYXYX
+Sample output is a list of sequence patterns ranked by their support values:
+
+```
+208 Initial information request -> Confirms -> Scanning document without modification -> Information request within document -> Within-Document search result
+163 Initial information request -> Query refinement offer -> Confirms -> SERP without modification
+...
+18 Initial information request -> Confirms -> Scanning document without modification -> (Information request within document -> Within-Document search result) -> Scanning document without modification
+...
+```
+
+where (XY) is a loop, i.e., a sequence repeated more than once, e.g., XYX or XYXYX
