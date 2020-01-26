@@ -30,7 +30,7 @@ def compose_model(traces_path, length, LoopsK=1, vocabulary_path=None, Cn=40):
         vocabulary_path = traces_path.split('.')[0] + '.vocabulary.txt'
     with open(data_path+vocabulary_path) as v:
         for line in v.readlines():
-            print(line)
+            # print(line)
             symbol = line[0]
             label = line.strip('\n')[2:]
             vocabulary[symbol] = label
@@ -53,7 +53,9 @@ def compose_model(traces_path, length, LoopsK=1, vocabulary_path=None, Cn=40):
     CoupledPY = [(i,j) for i,j in zip(Pns, Yns)]
 
     patterns = {}
-
+    # print('loops', loop_ids.values())
+    loop_symbols = [str(l) for l in loop_ids.values()]
+    
     for l in range(2, length+1):
         print(l)
         solution_patterns = composePatternOptPairs(CoupledPY, max_pattern_len=l, max_loops_number=LoopsK , number_of_patterns_out=Cn)
@@ -61,9 +63,20 @@ def compose_model(traces_path, length, LoopsK=1, vocabulary_path=None, Cn=40):
         for i in solution_patterns:
             if i[2] < 1:
                 break
-            decoded_model = ' -> '.join([vocabulary[symbol] for symbol in i[0].pattern_composed_now])
-            # decoded_patterns = [vocabulary[symbol] for pattern in i[1] for symbol in pattern]
-            patterns[decoded_model] = i[2]
+            loop = False
+            decoded_model = []
+            for symbol in i[0].pattern_composed_now:
+                if symbol in loop_symbols:
+                    loop = True
+                decoded_model.append(vocabulary[symbol])
+
+            # report only patterns with loops
+            if loop:
+                decoded_model = ' -> '.join(decoded_model)
+                decoded_patterns = []
+                for pattern in i[1]:
+                    decoded_patterns.append(' -> '.join([vocabulary[symbol]  for symbol in pattern]))
+                patterns[decoded_model] = (i[2], decoded_patterns)
 
     sorted_patterns_keys = sorted(patterns, reverse=True, key=patterns.get)
     with open(data_path+traces_path.split('.')[0] + '.output.txt', 'w') as out_file:
