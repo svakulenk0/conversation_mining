@@ -71,12 +71,12 @@ def compose_model(traces_path, length, LoopsK=1, vocabulary_path=None, Cn=40):
                 decoded_model.append(vocabulary[symbol])
 
             # report only patterns with loops
-            if loop:
-                decoded_model = ' -> '.join(decoded_model)
-                decoded_patterns = []
-                for pattern in i[1]:
-                    decoded_patterns.append(' -> '.join([vocabulary[symbol]  for symbol in pattern]))
-                patterns[decoded_model] = (i[2], decoded_patterns)
+            # if loop:
+            decoded_model = ' -> '.join(decoded_model)
+            decoded_patterns = []
+            for pattern in i[1]:
+                decoded_patterns.append(' -> '.join([vocabulary[symbol]  for symbol in pattern]))
+            patterns[decoded_model] = (i[2], decoded_patterns)
 
     sorted_patterns_keys = sorted(patterns, reverse=True, key=patterns.get)
     with open(data_path+traces_path.split('.')[0] + '.output.txt', 'w') as out_file:
