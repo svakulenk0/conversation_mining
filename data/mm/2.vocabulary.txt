@@ -1,0 +1,57 @@
+a define organizational strategy <C> 
+b set process objectives <C> 
+c select processes <C> 
+d define project objective <C>
+e define process roles <C> 
+f discover process <C> 
+g measure process <C> 
+h analyze process problems <C> 
+i set process performance metrics <C> 
+j identify enabling technology <C> 
+k create to-be process design <C> 
+l develop IT artifacts <C> 
+m implement process <C> 
+n discover process parts <C> 
+o identify processes <C> 
+p model as-is process <C> 
+q identify customer requirements <C> 
+r identify capabilities of the work involved
+s analyze process <C> 
+t evaluate to-be process design <C> 
+u monitor continiously <C> 
+v set up project team <C> 
+w manage communication <C> 
+x communicate project outcomes <C> 
+y benchmark process <C> 
+z sense organizational environment <C> 
+A manage process implementation <C> 
+B assess IT artifacts <C> 
+C conduct to-be process training <C> 
+D evaluate to-be process <C> 
+E reward project success <C> 
+F change organizational culture <C> 
+G create process architecture <C> 
+H simulate as-is process <C> 
+I simulate to-be process <C> 
+J conduct change method training <C> 
+K collect process data <C> 
+L integrate outside knowledge <C> 
+M automate process <C> 
+N allocate resources for activity execution
+O manage project <C> 
+P create project commitment <C> 
+Q change organizational structure <C> 
+R model as-is process <C>
+S assess readiness for change <C> 
+T identify replication opportunities <C> 
+U prepare project <C> 
+V recognize need for change <C> 
+W 
+X evaluate project success <C> 
+Y communicate company performance
+Z choose methods/techniques/tools <C> 
+( approve project <C> 
+) identify customer products
+* improve customer products
++ create process-related models <C> 
+, develop process capability
