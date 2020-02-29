@@ -1,4 +1,4 @@
-# Conversation mining resources
+# Conversation mining
 
 
 ## Conversational data
