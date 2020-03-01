@@ -1,0 +1,14 @@
+Hello -> (Query -> Request) -> Response
+Request -> Query -> (Request -> Feedback)
+Query -> (Request -> Feedback)
+(Request -> Query) -> Response -> Feedback
+(Query -> Request) -> Response
+Query -> Response -> (Feedback -> Request)
+(Request -> Query) -> Feedback
+Request -> (Query -> Response) -> Feedback
+(Query -> Request) -> Feedback -> Response
+(Query -> Request) -> Response -> Feedback
+(Request -> Query) -> Response
+(Request -> Query) -> Feedback -> Response
+Hello -> Query -> (Request -> Feedback)
+(Query -> Request) -> Feedback
